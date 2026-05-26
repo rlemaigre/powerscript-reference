@@ -1,0 +1,3 @@
+# Syntax
+
+LibraryDirectoryEx ( libraryname, objecttype )

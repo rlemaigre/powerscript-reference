@@ -1,0 +1,3 @@
+# Syntax
+
+DynamicDescriptionArea.GetDynamicNumber ( index )

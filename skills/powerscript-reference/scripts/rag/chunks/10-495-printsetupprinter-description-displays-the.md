@@ -1,0 +1,1 @@
+# 10.495 PrintSetupPrinter Description Displays the printer setup dialog box Syntax PrintSetupPrinter ( ) Return value Integer. Returns 1 if the function succeeds, 0 for cancel, -1 if an error occurs.

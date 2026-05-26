@@ -1,0 +1,3936 @@
+- title: PowerScript Reference
+  chunk: chunks/powerscript-reference.md
+  children:
+    - title: Contents
+      chunk: chunks/contents.md
+- title: Part I. PowerScript Topics
+  chunk: chunks/part-i-powerscript-topics.md
+  children:
+    - title: 1 Language Basics
+      chunk: chunks/1-language-basics.md
+      children:
+        - title: 1.1 Comments Description
+          chunk: chunks/1-1-comments-description.md
+          children:
+            - title: Adding comment markers
+              chunk: chunks/adding-comment-markers.md
+        - title: 1.2 Identifier names Description
+          chunk: chunks/1-2-identifier-names-description.md
+          children:
+            - title: Usage
+              chunk: chunks/usage.md
+            - title: Be careful
+              chunk: chunks/be-careful.md
+            - title: Using decimal, hexadecimal, and octal values
+              chunk: chunks/using-decimal-hexadecimal-and-octal-values.md
+        - title: 1.5 NULL values Description
+          chunk: chunks/1-5-null-values-description.md
+          children:
+            - title: Examples
+              chunk: chunks/examples.md
+        - title: 1.6 Reserved words
+          chunk: chunks/1-6-reserved-words.md
+        - title: 1.7 Pronouns Description
+          chunk: chunks/1-7-pronouns-description.md
+          children:
+            - title: ParentWindow property
+              chunk: chunks/parentwindow-property.md
+            - title: Examples
+              chunk: chunks/examples-1.md
+            - title: Usage
+              chunk: chunks/usage-1.md
+        - title: 1.8 Statement continuation Description
+          chunk: chunks/1-8-statement-continuation-description.md
+        - title: 1.9 Statement separation Description
+          chunk: chunks/1-9-statement-separation-description.md
+        - title: 1.10 White space Description
+          chunk: chunks/1-10-white-space-description.md
+        - title: 1.11 Conditional compilation Description
+          chunk: chunks/1-11-conditional-compilation-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax.md
+            - title: Limitations and error messages
+              chunk: chunks/limitations-and-error-messages.md
+            - title: Examples
+              chunk: chunks/examples-2.md
+    - title: 2 Datatypes
+      chunk: chunks/2-datatypes.md
+      children:
+        - title: 2.1 Standard datatypes The datatypes
+          chunk: chunks/2-1-standard-datatypes-the-datatypes.md
+          children:
+            - title: Blob
+              chunk: chunks/blob.md
+            - title: Using literals
+              chunk: chunks/using-literals.md
+            - title: Date
+              chunk: chunks/date.md
+            - title: DateTime
+              chunk: chunks/datetime.md
+            - title: Decimal or Dec
+              chunk: chunks/decimal-or-dec.md
+            - title: Time
+              chunk: chunks/time.md
+        - title: 2.2 The Any datatype General information
+          chunk: chunks/2-2-the-any-datatype-general-information.md
+          children:
+            - title: Declarations and assignments
+              chunk: chunks/declarations-and-assignments.md
+            - title: Operations and expressions
+              chunk: chunks/operations-and-expressions.md
+            - title: Overusing the Any datatype
+              chunk: chunks/overusing-the-any-datatype.md
+        - title: 2.3 System object datatypes Objects as datatypes
+          chunk: chunks/2-3-system-object-datatypes-objects-as-datatypes.md
+          children:
+            - title: Examples
+              chunk: chunks/examples-3.md
+        - title: 2.4 Enumerated datatypes About enumerated datatypes
+          chunk: chunks/2-4-enumerated-datatypes-about-enumerated-datatype.md
+          children:
+            - title: Incorrect syntax
+              chunk: chunks/incorrect-syntax.md
+            - title: Advantages of enumerated types
+              chunk: chunks/advantages-of-enumerated-types.md
+    - title: 3 Declarations
+      children:
+        - title: About this chapter
+          chunk: chunks/about-this-chapter.md
+        - title: 3.1 Declaring variables General information
+          chunk: chunks/3-1-declaring-variables-general-information.md
+          children:
+            - title: Global, instance, and shared declarations
+              chunk: chunks/global-instance-and-shared-declarations.md
+            - title: How PowerBuilder looks for variables
+              chunk: chunks/how-powerbuilder-looks-for-variables.md
+            - title: Referring to instance variables
+              chunk: chunks/referring-to-instance-variables.md
+            - title: Full syntax
+              chunk: chunks/full-syntax.md
+            - title: "Table 3.2: Variable declaration parameters"
+              chunk: chunks/table-3-2-variable-declaration-parameters.md
+            - title: Default values for variables
+              chunk: chunks/default-values-for-variables.md
+            - title: Specifying a literal as a initial value
+              chunk: chunks/specifying-a-literal-as-a-initial-value.md
+            - title: Do not use a function's return value
+              chunk: chunks/do-not-use-a-function-s-return-value.md
+            - title: How shared variables are initialized
+              chunk: chunks/how-shared-variables-are-initialized.md
+            - title: When using multiple instances of windows
+              chunk: chunks/when-using-multiple-instances-of-windows.md
+            - title: How instance variables are initialized
+              chunk: chunks/how-instance-variables-are-initialized.md
+            - title: Syntax
+              chunk: chunks/syntax-1.md
+            - title: Usage
+              chunk: chunks/usage-2.md
+            - title: Syntax
+              chunk: chunks/syntax-2.md
+            - title: Examples
+              chunk: chunks/examples-4.md
+        - title: 3.2 Declaring constants Description
+          chunk: chunks/3-2-declaring-constants-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-3.md
+            - title: Usage
+              chunk: chunks/usage-3.md
+            - title: Examples
+              chunk: chunks/examples-5.md
+        - title: 3.3 Declaring arrays Description
+          chunk: chunks/3-3-declaring-arrays-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-4.md
+            - title: Multidimensional array
+              chunk: chunks/multidimensional-array.md
+            - title: Assigning values
+              chunk: chunks/assigning-values.md
+            - title: Examples
+              chunk: chunks/examples-6.md
+            - title: How memory is allocated
+              chunk: chunks/how-memory-is-allocated.md
+            - title: Multidimensional arrays
+              chunk: chunks/multidimensional-arrays.md
+            - title: 3.3.3.2 Using arraylists to assign values to an array General information
+              chunk: chunks/3-3-3-2-using-arraylists-to-assign-values-to-an-ar.md
+            - title: 3.3.3.3 Errors that occur when addressing arrays Fixed-size arrays
+              chunk: chunks/3-3-3-3-errors-that-occur-when-addressing-arrays-f.md
+            - title: Variable-size arrays
+              chunk: chunks/variable-size-arrays.md
+        - title: 3.4 Declaring external functions Description
+          chunk: chunks/3-4-declaring-external-functions-description.md
+          children:
+            - title: Availability of the dynamic library at runtime
+              chunk: chunks/availability-of-the-dynamic-library-at-runtime.md
+            - title: Examples
+              chunk: chunks/examples-7.md
+            - title: 3.4.1 Datatypes for external function arguments
+              chunk: chunks/3-4-1-datatypes-for-external-function-arguments.md
+            - title: Boolean
+              chunk: chunks/boolean.md
+            - title: Pointers
+              chunk: chunks/pointers.md
+            - title: Floating-point values
+              chunk: chunks/floating-point-values.md
+            - title: Passing structures by value
+              chunk: chunks/passing-structures-by-value.md
+            - title: 3.4.2 Calling external functions Global external functions
+              chunk: chunks/3-4-2-calling-external-functions-global-external-f.md
+            - title: 3.4.3 Defining source for external functions
+              chunk: chunks/3-4-3-defining-source-for-external-functions.md
+            - title: Use _stdcall convention
+              chunk: chunks/use-stdcall-convention.md
+        - title: 3.5 Declaring DBMS stored procedures as remote procedure calls
+            Description
+          chunk: chunks/3-5-declaring-dbms-stored-procedures-as-remote-pro.md
+          children:
+            - title: "Table 3.17: RPC declaration parameters"
+              chunk: chunks/table-3-17-rpc-declaration-parameters.md
+            - title: Usage
+              chunk: chunks/usage-4.md
+            - title: Examples
+              chunk: chunks/examples-8.md
+            - title: messagebox("Error", SQLCA.sqlerrtext) END IF
+              chunk: chunks/messagebox-error-sqlca-sqlerrtext-end-if.md
+    - title: 4 Operators and Expressions
+      children:
+        - title: About this chapter
+          chunk: chunks/about-this-chapter-1.md
+        - title: 4.1 Operators in PowerBuilder General information
+          chunk: chunks/4-1-operators-in-powerbuilder-general-information.md
+          children:
+            - title: Operators used in DataWindow objects
+              chunk: chunks/operators-used-in-datawindow-objects.md
+            - title: "Table 4.3: PowerBuilder concatenation operator"
+              chunk: chunks/table-4-3-powerbuilder-concatenation-operator.md
+            - title: "Table 4.4: Order of precedence of operators"
+              chunk: chunks/table-4-4-order-of-precedence-of-operators.md
+            - title: How to override
+              chunk: chunks/how-to-override.md
+        - title: 4.3 Datatype of PowerBuilder expressions General information
+          chunk: chunks/4-3-datatype-of-powerbuilder-expressions-general-i.md
+          children:
+            - title: 4.3.1.2 Assignment and datatypes General information
+              chunk: chunks/4-3-1-2-assignment-and-datatypes-general-informati.md
+            - title: Overflow on assignment
+              chunk: chunks/overflow-on-assignment.md
+            - title: Assigning strings to char arrays
+              chunk: chunks/assigning-strings-to-char-arrays.md
+            - title: Assigning char arrays to strings
+              chunk: chunks/assigning-char-arrays-to-strings.md
+            - title: Using both strings and chars in an expression
+              chunk: chunks/using-both-strings-and-chars-in-an-expression.md
+            - title: Using chars in PowerScript functions
+              chunk: chunks/using-chars-in-powerscript-functions.md
+    - title: 5 Structures and Objects
+      children:
+        - title: About this chapter
+          chunk: chunks/about-this-chapter-2.md
+        - title: 5.1 About structures General information
+          chunk: chunks/5-1-about-structures-general-information.md
+          children:
+            - title: Defining structures
+              chunk: chunks/defining-structures.md
+            - title: Declaring structures
+              chunk: chunks/declaring-structures.md
+        - title: 5.2 About objects What an object is
+          chunk: chunks/5-2-about-objects-what-an-object-is.md
+          children:
+            - title: System objects versus user objects
+              chunk: chunks/system-objects-versus-user-objects.md
+            - title: 5.2.1 About user objects Two types
+              chunk: chunks/5-2-1-about-user-objects-two-types.md
+            - title: 5.2.2 Instantiating objects Classes versus instances
+              chunk: chunks/5-2-2-instantiating-objects-classes-versus-instanc.md
+            - title: 5.2.3 Using ancestors and descendants descendant objects
+              chunk: chunks/5-2-3-using-ancestors-and-descendants-descendant-o.md
+            - title: Instantiating
+              chunk: chunks/instantiating.md
+            - title: Controlling when garbage collection occurs
+              chunk: chunks/controlling-when-garbage-collection-occurs.md
+            - title: 5.2.5 User objects that behave like structures
+              chunk: chunks/5-2-5-user-objects-that-behave-like-structures.md
+            - title: Advantages of user objects
+              chunk: chunks/advantages-of-user-objects.md
+            - title: Memory allocation differences
+              chunk: chunks/memory-allocation-differences.md
+            - title: Autoinstantiated objects
+              chunk: chunks/autoinstantiated-objects.md
+        - title: 5.3 Assignment for objects and structures
+          chunk: chunks/5-3-assignment-for-objects-and-structures.md
+          children:
+            - title: Restriction on assignment
+              chunk: chunks/restriction-on-assignment.md
+            - title: 5.3.3 Assignment for autoinstantiated user objects
+              chunk: chunks/5-3-3-assignment-for-autoinstantiated-user-objects.md
+            - title: Restrictions for copying
+              chunk: chunks/restrictions-for-copying.md
+            - title: Examples
+              chunk: chunks/examples-9.md
+    - title: 6 Calling Functions and Events
+      children:
+        - title: About this chapter
+          chunk: chunks/about-this-chapter-3.md
+        - title: 6.1 About functions and events Importance of functions and events
+          chunk: chunks/6-1-about-functions-and-events-importance-of-funct.md
+          children:
+            - title: Types of functions and events
+              chunk: chunks/types-of-functions-and-events.md
+            - title: Which to use
+              chunk: chunks/which-to-use.md
+        - title: 6.2 Finding and executing functions and events
+          chunk: chunks/6-2-finding-and-executing-functions-and-events.md
+          children:
+            - title: 6.2.1 Finding functions
+              chunk: chunks/6-2-1-finding-functions.md
+            - title: Unqualified function names
+              chunk: chunks/unqualified-function-names.md
+            - title: DataWindow expression functions
+              chunk: chunks/datawindow-expression-functions.md
+            - title: Qualified function names
+              chunk: chunks/qualified-function-names.md
+            - title: 6.2.2 Finding events
+              chunk: chunks/6-2-2-finding-events.md
+            - title: Finding functions versus events
+              chunk: chunks/finding-functions-versus-events.md
+        - title: 6.3 Triggering versus posting functions and events Triggering
+          chunk: chunks/6-3-triggering-versus-posting-functions-and-events.md
+          children:
+            - title: Posting
+              chunk: chunks/posting.md
+            - title: PowerBuilder messages processed first
+              chunk: chunks/powerbuilder-messages-processed-first.md
+            - title: TriggerEvent and PostEvent functions
+              chunk: chunks/triggerevent-and-postevent-functions.md
+        - title: 6.4 Static versus dynamic calls Calling functions and events
+          chunk: chunks/6-4-static-versus-dynamic-calls-calling-functions.md
+          children:
+            - title: Specifying static or dynamic lookup
+              chunk: chunks/specifying-static-or-dynamic-lookup.md
+            - title: 6.4.1 Static calls
+              chunk: chunks/6-4-1-static-calls.md
+            - title: Results of static calls
+              chunk: chunks/results-of-static-calls.md
+            - title: 6.4.2 Dynamic calls
+              chunk: chunks/6-4-2-dynamic-calls.md
+            - title: Functions
+              chunk: chunks/functions.md
+            - title: When an error occurs
+              chunk: chunks/when-an-error-occurs.md
+            - title: If the arguments do not match
+              chunk: chunks/if-the-arguments-do-not-match.md
+            - title: Error-proofing your code
+              chunk: chunks/error-proofing-your-code.md
+        - title: 6.5 Overloading, overriding, and extending functions and events
+          chunk: chunks/6-5-overloading-overriding-and-extending-functions.md
+          children:
+            - title: 6.5.1 Overloading and overriding functions
+              chunk: chunks/6-5-1-overloading-and-overriding-functions.md
+            - title: Problematic overloading
+              chunk: chunks/problematic-overloading.md
+            - title: How type promotion works
+              chunk: chunks/how-type-promotion-works.md
+            - title: 6.5.2 Extending and overriding events
+              chunk: chunks/6-5-2-extending-and-overriding-events.md
+            - title: No overloaded events
+              chunk: chunks/no-overloaded-events.md
+        - title: 6.6 Passing arguments to functions and events
+          chunk: chunks/6-6-passing-arguments-to-functions-and-events.md
+          children:
+            - title: 6.6.1 Passing objects
+              chunk: chunks/6-6-1-passing-objects.md
+            - title: Objects passed by value
+              chunk: chunks/objects-passed-by-value.md
+            - title: Objects passed by reference
+              chunk: chunks/objects-passed-by-reference.md
+            - title: Objects passed as read-only
+              chunk: chunks/objects-passed-as-read-only.md
+            - title: Structures passed by reference
+              chunk: chunks/structures-passed-by-reference.md
+            - title: Structures passed as read-only
+              chunk: chunks/structures-passed-as-read-only.md
+            - title: 6.6.3 Passing arrays
+              chunk: chunks/6-6-3-passing-arrays.md
+            - title: Variable-size array as an argument
+              chunk: chunks/variable-size-array-as-an-argument.md
+            - title: Fixed-size array as an argument
+              chunk: chunks/fixed-size-array-as-an-argument.md
+            - title: If the array dimensions do not match
+              chunk: chunks/if-the-array-dimensions-do-not-match.md
+            - title: 6.7.1 Functions
+              chunk: chunks/6-7-1-functions.md
+            - title: Examples
+              chunk: chunks/examples-10.md
+            - title: 6.7.2 Events
+              chunk: chunks/6-7-2-events.md
+            - title: 6.7.3 Using cascaded calling and return values
+              chunk: chunks/6-7-3-using-cascaded-calling-and-return-values.md
+            - title: Disadvantage of cascaded calls
+              chunk: chunks/disadvantage-of-cascaded-calls.md
+            - title: Dynamic calls
+              chunk: chunks/dynamic-calls.md
+            - title: Posted functions and events
+              chunk: chunks/posted-functions-and-events.md
+            - title: System events
+              chunk: chunks/system-events.md
+        - title: 6.8 Syntax for calling PowerBuilder functions and events Description
+          chunk: chunks/6-8-syntax-for-calling-powerbuilder-functions-and.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-5.md
+            - title: Usage
+              chunk: chunks/usage-5.md
+            - title: Examples
+              chunk: chunks/examples-11.md
+            - title: Syntax
+              chunk: chunks/syntax-6.md
+- title: Part II. Statements, Events, and Functions
+  chunk: chunks/part-ii-statements-events-and-functions.md
+  children:
+    - title: 7 PowerScript Statements
+      chunk: chunks/7-powerscript-statements.md
+      children:
+        - title: Usage
+          chunk: chunks/usage-6.md
+        - title: Examples
+          chunk: chunks/examples-12.md
+        - title: Examples
+          chunk: chunks/examples-13.md
+        - title: 7.3 CHOOSE CASE Description
+          chunk: chunks/7-3-choose-case-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-7.md
+            - title: "Table 7.4:"
+              chunk: chunks/table-7-4.md
+            - title: Usage
+              chunk: chunks/usage-7.md
+            - title: Examples
+              chunk: chunks/examples-14.md
+        - title: 7.4 CONTINUE Description
+          chunk: chunks/7-4-continue-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-8.md
+            - title: Usage
+              chunk: chunks/usage-8.md
+        - title: 7.5 CREATE Description
+          chunk: chunks/7-5-create-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-9.md
+            - title: Usage
+              chunk: chunks/usage-9.md
+        - title: 7.6 DESTROY Description
+          chunk: chunks/7-6-destroy-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-10.md
+            - title: Usage
+              chunk: chunks/usage-10.md
+        - title: 7.7 DO...LOOP Description
+          chunk: chunks/7-7-do-loop-description.md
+          children:
+            - title: Usage
+              chunk: chunks/usage-11.md
+        - title: 7.8 EXIT Description
+          chunk: chunks/7-8-exit-description.md
+        - title: 7.9 FOR...NEXT Description
+          chunk: chunks/7-9-for-next-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-11.md
+            - title: A variable as the step increment
+              chunk: chunks/a-variable-as-the-step-increment.md
+            - title: Avoid overflow
+              chunk: chunks/avoid-overflow.md
+            - title: Examples
+              chunk: chunks/examples-15.md
+            - title: Examples
+              chunk: chunks/examples-16.md
+            - title: Examples
+              chunk: chunks/examples-17.md
+        - title: 7.12 IF...THEN Description
+          chunk: chunks/7-12-if-then-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-12.md
+            - title: Usage
+              chunk: chunks/usage-12.md
+            - title: Examples
+              chunk: chunks/examples-18.md
+            - title: Usage
+              chunk: chunks/usage-13.md
+        - title: 7.15 THROWS Description
+          chunk: chunks/7-15-throws-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-13.md
+        - title: 7.16 TRY...CATCH...FINALLY...END TRY Description
+          chunk: chunks/7-16-try-catch-finally-end-try-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-14.md
+            - title: Usage
+              chunk: chunks/usage-14.md
+            - title: FINALLY clause restriction
+              chunk: chunks/finally-clause-restriction.md
+    - title: 8 SQL Statements
+      children:
+        - title: About this chapter
+          chunk: chunks/about-this-chapter-4.md
+        - title: 8.1 Using SQL in scripts
+          chunk: chunks/8-1-using-sql-in-scripts.md
+          children:
+            - title: Referencing PowerScript variables in scripts
+              chunk: chunks/referencing-powerscript-variables-in-scripts.md
+            - title: Using indicator variables
+              chunk: chunks/using-indicator-variables.md
+            - title: Error reporting
+              chunk: chunks/error-reporting.md
+            - title: Error handling in scripts
+              chunk: chunks/error-handling-in-scripts.md
+            - title: Disabling database connection when compiling and building
+              chunk: chunks/disabling-database-connection-when-compiling-and-b.md
+            - title: Caution
+              chunk: chunks/caution.md
+            - title: Syntax
+              chunk: chunks/syntax-15.md
+            - title: Usage
+              chunk: chunks/usage-15.md
+            - title: Error handling
+              chunk: chunks/error-handling.md
+            - title: Syntax
+              chunk: chunks/syntax-16.md
+            - title: Usage
+              chunk: chunks/usage-16.md
+            - title: Error handling
+              chunk: chunks/error-handling-1.md
+            - title: Examples
+              chunk: chunks/examples-19.md
+            - title: 8.1.4 CONNECT Description Connects to a specified database. Syntax
+                CONNECT {USING TransactionObject};
+              chunk: chunks/8-1-4-connect-description-connects-to-a-specified.md
+            - title: 8.1.5 DECLARE Cursor Description Declares a cursor for the specified
+                transaction object. Syntax
+              chunk: chunks/8-1-5-declare-cursor-description-declares-a-cursor.md
+            - title: "Table 8.7:"
+              chunk: chunks/table-8-7.md
+            - title: Syntax
+              chunk: chunks/syntax-17.md
+            - title: "Table 8.8:"
+              chunk: chunks/table-8-8.md
+            - title: Examples
+              chunk: chunks/examples-20.md
+            - title: 8.1.8 DELETE Where Current of Cursor Description Deletes the row in which
+                the cursor is positioned.
+              chunk: chunks/8-1-8-delete-where-current-of-cursor-description-d.md
+            - title: Syntax
+              chunk: chunks/syntax-18.md
+            - title: "Table 8.10:"
+              chunk: chunks/table-8-10.md
+            - title: Usage
+              chunk: chunks/usage-17.md
+            - title: Error handling
+              chunk: chunks/error-handling-2.md
+            - title: Examples
+              chunk: chunks/examples-21.md
+            - title: Syntax
+              chunk: chunks/syntax-19.md
+            - title: Examples
+              chunk: chunks/examples-22.md
+            - title: Error handling
+              chunk: chunks/error-handling-3.md
+            - title: Examples
+              chunk: chunks/examples-23.md
+            - title: "Table 8.14:"
+              chunk: chunks/table-8-14.md
+            - title: Error handling
+              chunk: chunks/error-handling-4.md
+            - title: Usage
+              chunk: chunks/usage-18.md
+            - title: Error handling
+              chunk: chunks/error-handling-5.md
+            - title: 8.1.14 ROLLBACK Description
+              chunk: chunks/8-1-14-rollback-description.md
+            - title: 8.1.15 SELECT Description Selects a row in the tables specified in
+                RestOfSelectStatement. Syntax SELECT RestOfSelectStatement
+                {USING TransactionObject} ;
+              chunk: chunks/8-1-15-select-description-selects-a-row-in-the-tab.md
+            - title: Error handling
+              chunk: chunks/error-handling-6.md
+            - title: Examples
+              chunk: chunks/examples-24.md
+            - title: Error handling
+              chunk: chunks/error-handling-7.md
+            - title: Database information
+              chunk: chunks/database-information.md
+            - title: Examples
+              chunk: chunks/examples-25.md
+            - title: "Table 8.19:"
+              chunk: chunks/table-8-19.md
+            - title: "Table 8.20:"
+              chunk: chunks/table-8-20.md
+            - title: Database information
+              chunk: chunks/database-information-1.md
+            - title: Examples
+              chunk: chunks/examples-26.md
+            - title: Syntax
+              chunk: chunks/syntax-20.md
+            - title: "Table 8.21:"
+              chunk: chunks/table-8-21.md
+            - title: "Table 8.22:"
+              chunk: chunks/table-8-22.md
+            - title: About the examples
+              chunk: chunks/about-the-examples.md
+            - title: Declaring a procedure with the SQL Native Client database interface
+              chunk: chunks/declaring-a-procedure-with-the-sql-native-client-d.md
+            - title: Syntax
+              chunk: chunks/syntax-21.md
+            - title: "Table 8.23:"
+              chunk: chunks/table-8-23.md
+            - title: Examples
+              chunk: chunks/examples-27.md
+            - title: For SAP ASE users
+              chunk: chunks/for-sap-ase-users.md
+            - title: "Table 8.24:"
+              chunk: chunks/table-8-24.md
+            - title: Syntax
+              chunk: chunks/syntax-22.md
+            - title: "Table 8.25:"
+              chunk: chunks/table-8-25.md
+            - title: Syntax
+              chunk: chunks/syntax-23.md
+    - title: 9 PowerScript Events
+      children:
+        - title: About this chapter
+          chunk: chunks/about-this-chapter-5.md
+        - title: Event IDs
+          chunk: chunks/event-ids.md
+        - title: Calling events without specifying their arguments
+          chunk: chunks/calling-events-without-specifying-their-arguments.md
+        - title: Ancestor event script return values
+          chunk: chunks/ancestor-event-script-return-values.md
+        - title: See also
+          chunk: chunks/see-also.md
+        - title: Examples
+          chunk: chunks/examples-28.md
+        - title: Event ID
+          chunk: chunks/event-id.md
+        - title: Examples
+          chunk: chunks/examples-29.md
+        - title: Arguments
+          chunk: chunks/arguments.md
+        - title: "Table 9.18:"
+          chunk: chunks/table-9-18.md
+        - title: "Table 9.19:"
+          chunk: chunks/table-9-19.md
+        - title: "Table 9.20:"
+          chunk: chunks/table-9-20.md
+        - title: "Table 9.21:"
+          chunk: chunks/table-9-21.md
+        - title: Event ID
+          chunk: chunks/event-id-1.md
+        - title: Using the ItemActivate event for ListView controls
+          chunk: chunks/using-the-itemactivate-event-for-listview-controls.md
+        - title: Event ID
+          chunk: chunks/event-id-2.md
+        - title: Examples
+          chunk: chunks/examples-30.md
+        - title: Arguments None
+          chunk: chunks/arguments-none.md
+        - title: Usage
+          chunk: chunks/usage-19.md
+        - title: "9.11.2 Syntax 2: For OLE controls Description"
+          chunk: chunks/9-11-2-syntax-2-for-ole-controls-description.md
+        - title: "9.11.3 Syntax 3: For windows Description Occurs just before a window is
+            removed from display. Event ID"
+          chunk: chunks/9-11-3-syntax-3-for-windows-description-occurs-jus.md
+        - title: Obsolete techniques
+          chunk: chunks/obsolete-techniques.md
+        - title: Examples
+          chunk: chunks/examples-31.md
+        - title: 9.13 CloseUp Description
+          chunk: chunks/9-13-closeup-description.md
+          children:
+            - title: Event ID
+              chunk: chunks/event-id-3.md
+            - title: Examples
+              chunk: chunks/examples-32.md
+        - title: 9.15 ConnectMobiLink Description
+          chunk: chunks/9-15-connectmobilink-description.md
+          children:
+            - title: Event ID
+              chunk: chunks/event-id-4.md
+        - title: 9.16 Constructor Description
+          chunk: chunks/9-16-constructor-description.md
+          children:
+            - title: Event ID
+              chunk: chunks/event-id-5.md
+            - title: Examples
+              chunk: chunks/examples-33.md
+            - title: Return Values
+              chunk: chunks/return-values.md
+            - title: Examples
+              chunk: chunks/examples-34.md
+        - title: 9.21 DBNotification Description
+          chunk: chunks/9-21-dbnotification-description.md
+          children:
+            - title: Event ID
+              chunk: chunks/event-id-6.md
+            - title: Usage
+              chunk: chunks/usage-20.md
+            - title: Return Values Long.
+              chunk: chunks/return-values-long.md
+        - title: 9.25 Destructor Description
+          chunk: chunks/9-25-destructor-description.md
+          children:
+            - title: Event ID
+              chunk: chunks/event-id-7.md
+            - title: Examples
+              chunk: chunks/examples-35.md
+            - title: See also Clicked
+              chunk: chunks/see-also-clicked.md
+            - title: Event ID
+              chunk: chunks/event-id-8.md
+            - title: Event ID
+              chunk: chunks/event-id-9.md
+            - title: Event ID
+              chunk: chunks/event-id-10.md
+            - title: Usage
+              chunk: chunks/usage-21.md
+            - title: Arguments
+              chunk: chunks/arguments-1.md
+            - title: See also
+              chunk: chunks/see-also-1.md
+            - title: "9.32.2 Syntax 2: For TreeView controls Description Occurs when the user
+                is dragging an object within the control. Event ID"
+              chunk: chunks/9-32-2-syntax-2-for-treeview-controls-description.md
+            - title: "9.32.3 Syntax 3: For windows and other controls Description Occurs when
+                the user is dragging an object within the control."
+              chunk: chunks/9-32-3-syntax-3-for-windows-and-other-controls-des.md
+            - title: See also
+              chunk: chunks/see-also-2.md
+        - title: 9.33 DropDown Description
+          chunk: chunks/9-33-dropdown-description.md
+          children:
+            - title: See also
+              chunk: chunks/see-also-3.md
+            - title: Event ID
+              chunk: chunks/event-id-11.md
+            - title: "9.39.1 Syntax 1: for Connection, DataWindow, DataStore, OLE, OLEObject,
+                OLETxnObject Description"
+              chunk: chunks/9-39-1-syntax-1-for-connection-datawindow-datastor.md
+            - title: Improved error-handling capability in PowerBuilder
+              chunk: chunks/improved-error-handling-capability-in-powerbuilder.md
+            - title: Event ID
+              chunk: chunks/event-id-12.md
+            - title: When to substitute a return value
+              chunk: chunks/when-to-substitute-a-return-value.md
+            - title: Examples
+              chunk: chunks/examples-36.md
+            - title: Return Values None
+              chunk: chunks/return-values-none.md
+            - title: Improved error-handling capability in PowerBuilder
+              chunk: chunks/improved-error-handling-capability-in-powerbuilder-1.md
+            - title: Event ID
+              chunk: chunks/event-id-13.md
+            - title: Examples
+              chunk: chunks/examples-37.md
+            - title: Return Values Long.
+              chunk: chunks/return-values-long-1.md
+            - title: Event ID
+              chunk: chunks/event-id-14.md
+            - title: Arguments
+              chunk: chunks/arguments-2.md
+            - title: Examples
+              chunk: chunks/examples-38.md
+            - title: Event ID
+              chunk: chunks/event-id-15.md
+            - title: Arguments None
+              chunk: chunks/arguments-none-1.md
+            - title: See also
+              chunk: chunks/see-also-4.md
+        - title: 9.49 HotLinkAlarm Description
+          chunk: chunks/9-49-hotlinkalarm-description.md
+        - title: 9.50 Idle Description
+          chunk: chunks/9-50-idle-description.md
+          children:
+            - title: Event ID
+              chunk: chunks/event-id-16.md
+            - title: Examples
+              chunk: chunks/examples-39.md
+        - title: 9.54 ItemChanged Description Occurs when an ListView item has changed.
+            Event ID
+          chunk: chunks/9-54-itemchanged-description-occurs-when-an-listvi.md
+        - title: 9.55 ItemChanging Description Occurs just before a ListView changes.
+          chunk: chunks/9-55-itemchanging-description-occurs-just-before-a.md
+          children:
+            - title: Return Values Long.
+              chunk: chunks/return-values-long-2.md
+            - title: Usage
+              chunk: chunks/usage-22.md
+            - title: Examples
+              chunk: chunks/examples-40.md
+        - title: 9.62 LineDown Description
+          chunk: chunks/9-62-linedown-description.md
+          children:
+            - title: Event ID
+              chunk: chunks/event-id-17.md
+            - title: Arguments None
+              chunk: chunks/arguments-none-2.md
+            - title: Examples
+              chunk: chunks/examples-41.md
+        - title: 9.63 LineLeft Description
+          chunk: chunks/9-63-lineleft-description.md
+          children:
+            - title: Event ID
+              chunk: chunks/event-id-18.md
+            - title: Arguments None Return Values
+              chunk: chunks/arguments-none-return-values.md
+            - title: Examples
+              chunk: chunks/examples-42.md
+        - title: 9.64 LineRight Description
+          chunk: chunks/9-64-lineright-description.md
+          children:
+            - title: Event ID
+              chunk: chunks/event-id-19.md
+            - title: Examples
+              chunk: chunks/examples-43.md
+        - title: 9.65 LineUp Description
+          chunk: chunks/9-65-lineup-description.md
+          children:
+            - title: Event ID
+              chunk: chunks/event-id-20.md
+            - title: Examples
+              chunk: chunks/examples-44.md
+            - title: Examples
+              chunk: chunks/examples-45.md
+            - title: Event ID
+              chunk: chunks/event-id-21.md
+            - title: "9.69.1 Syntax 1: For RichTextEdit controls Description Occurs when the
+                mouse has moved within the RichTextEdit control. Event ID"
+              chunk: chunks/9-69-1-syntax-1-for-richtextedit-controls-descript.md
+            - title: "9.69.2 Syntax 2: For windows Description Occurs when the pointer is
+                moved within the window. Event ID"
+              chunk: chunks/9-69-2-syntax-2-for-windows-description-occurs-whe.md
+            - title: Examples
+              chunk: chunks/examples-46.md
+            - title: Event ID
+              chunk: chunks/event-id-22.md
+        - title: 9.71 Moved Description
+          chunk: chunks/9-71-moved-description.md
+          children:
+            - title: Event ID
+              chunk: chunks/event-id-23.md
+            - title: On Windows
+              chunk: chunks/on-windows.md
+            - title: Event ID
+              chunk: chunks/event-id-24.md
+            - title: Arguments None Return Values
+              chunk: chunks/arguments-none-return-values-1.md
+            - title: Changing the WindowState property
+              chunk: chunks/changing-the-windowstate-property.md
+            - title: Examples
+              chunk: chunks/examples-47.md
+            - title: Event ID
+              chunk: chunks/event-id-25.md
+            - title: Examples
+              chunk: chunks/examples-48.md
+        - title: 9.81 PipeMeter Description
+          chunk: chunks/9-81-pipemeter-description.md
+          children:
+            - title: Event ID
+              chunk: chunks/event-id-26.md
+            - title: Examples
+              chunk: chunks/examples-49.md
+        - title: 9.83 PrintFooter (obsolete) Description
+          chunk: chunks/9-83-printfooter-obsolete-description.md
+        - title: 9.84 PrintHeader (obsolete) Description
+          chunk: chunks/9-84-printheader-obsolete-description.md
+        - title: 9.85 ProcessingFile Description
+          chunk: chunks/9-85-processingfile-description.md
+          children:
+            - title: "Table 9.196:"
+              chunk: chunks/table-9-196.md
+            - title: "Table 9.197:"
+              chunk: chunks/table-9-197.md
+            - title: "Table 9.198:"
+              chunk: chunks/table-9-198.md
+            - title: Event ID
+              chunk: chunks/event-id-27.md
+        - title: 9.90 RButtonUp Description
+          chunk: chunks/9-90-rbuttonup-description.md
+          children:
+            - title: Event ID
+              chunk: chunks/event-id-28.md
+            - title: Event ID
+              chunk: chunks/event-id-29.md
+            - title: "Table 9.213:"
+              chunk: chunks/table-9-213.md
+            - title: "Table 9.214:"
+              chunk: chunks/table-9-214.md
+            - title: "Table 9.215:"
+              chunk: chunks/table-9-215.md
+            - title: "Table 9.216:"
+              chunk: chunks/table-9-216.md
+            - title: "Table 9.217:"
+              chunk: chunks/table-9-217.md
+            - title: "Table 9.218:"
+              chunk: chunks/table-9-218.md
+            - title: Arguments
+              chunk: chunks/arguments-3.md
+            - title: Return Values Long.
+              chunk: chunks/return-values-long-3.md
+            - title: Examples
+              chunk: chunks/examples-50.md
+            - title: Examples
+              chunk: chunks/examples-51.md
+        - title: 9.103 Selected Description
+          chunk: chunks/9-103-selected-description.md
+          children:
+            - title: Event ID
+              chunk: chunks/event-id-30.md
+            - title: See also Clicked
+              chunk: chunks/see-also-clicked-1.md
+            - title: Examples
+              chunk: chunks/examples-52.md
+            - title: Return Values
+              chunk: chunks/return-values-1.md
+            - title: Examples
+              chunk: chunks/examples-53.md
+        - title: 9.107 SizeCompleted Description
+          chunk: chunks/9-107-sizecompleted-description.md
+          children:
+            - title: "9.108 Sort The Sort event has different arguments for different
+                objects:"
+              chunk: chunks/9-108-sort-the-sort-event-has-different-arguments.md
+            - title: "9.108.1 Syntax 1: For ListView controls Description"
+              chunk: chunks/9-108-1-syntax-1-for-listview-controls-description.md
+            - title: Examples
+              chunk: chunks/examples-54.md
+            - title: Examples
+              chunk: chunks/examples-55.md
+            - title: Examples
+              chunk: chunks/examples-56.md
+        - title: 9.110 Start
+          chunk: chunks/9-110-start.md
+          children:
+            - title: Event ID
+              chunk: chunks/event-id-31.md
+            - title: Arguments None Return Values
+              chunk: chunks/arguments-none-return-values-2.md
+            - title: Event ID
+              chunk: chunks/event-id-32.md
+            - title: Arguments
+              chunk: chunks/arguments-4.md
+        - title: 9.115 SystemKey Description
+          chunk: chunks/9-115-systemkey-description.md
+          children:
+            - title: Event ID
+              chunk: chunks/event-id-33.md
+        - title: 9.116 Timer Description
+          chunk: chunks/9-116-timer-description.md
+          children:
+            - title: Event ID
+              chunk: chunks/event-id-34.md
+            - title: See also Start
+              chunk: chunks/see-also-start.md
+        - title: 9.119 UserString Description
+          chunk: chunks/9-119-userstring-description.md
+          children:
+            - title: Event ID
+              chunk: chunks/event-id-35.md
+            - title: "Table 9.263:"
+              chunk: chunks/table-9-263.md
+            - title: "Table 9.264:"
+              chunk: chunks/table-9-264.md
+        - title: 9.122 WaitForUploadAck Description
+          chunk: chunks/9-122-waitforuploadack-description.md
+        - title: 9.123 WarningMessage Description Occurs on display of a warning message.
+            Event ID
+          chunk: chunks/9-123-warningmessage-description-occurs-on-display.md
+          children:
+            - title: Return Values
+              chunk: chunks/return-values-2.md
+    - title: 10 PowerScript Functions
+      chunk: chunks/10-powerscript-functions.md
+      children:
+        - title: 10.4 Activate Description
+          chunk: chunks/10-4-activate-description.md
+          children:
+            - title: Applies to
+              chunk: chunks/applies-to.md
+            - title: Syntax
+              chunk: chunks/syntax-24.md
+        - title: 10.5 AddCategory Description
+          chunk: chunks/10-5-addcategory-description.md
+          children:
+            - title: Applies to
+              chunk: chunks/applies-to-1.md
+            - title: Syntax
+              chunk: chunks/syntax-25.md
+            - title: See also
+              chunk: chunks/see-also-5.md
+        - title: 10.7 AddData
+          chunk: chunks/10-7-adddata.md
+          children:
+            - title: Return value
+              chunk: chunks/return-value.md
+            - title: Examples
+              chunk: chunks/examples-57.md
+            - title: "10.7.2 Syntax 2: For scatter graphs Description"
+              chunk: chunks/10-7-2-syntax-2-for-scatter-graphs-description.md
+            - title: Adds a data point to a series in a scatter graph. Syntax
+              chunk: chunks/adds-a-data-point-to-a-series-in-a-scatter-graph-s.md
+            - title: "Table 10.9:"
+              chunk: chunks/table-10-9.md
+            - title: "Table 10.10:"
+              chunk: chunks/table-10-10.md
+            - title: Examples
+              chunk: chunks/examples-58.md
+            - title: Example 1
+              chunk: chunks/example-1.md
+            - title: Example 2
+              chunk: chunks/example-2.md
+            - title: Example 1
+              chunk: chunks/example-1-1.md
+            - title: Example 2
+              chunk: chunks/example-2-1.md
+            - title: "Table 10.20:"
+              chunk: chunks/table-10-20.md
+            - title: Example 1
+              chunk: chunks/example-1-2.md
+            - title: Example 2
+              chunk: chunks/example-2-2.md
+            - title: Example 3
+              chunk: chunks/example-3.md
+            - title: Example 4
+              chunk: chunks/example-4.md
+            - title: Example 2
+              chunk: chunks/example-2-3.md
+        - title: 10.15 AddItemNumber Description
+          chunk: chunks/10-15-additemnumber-description.md
+          children:
+            - title: Example 1
+              chunk: chunks/example-1-3.md
+            - title: Example 2
+              chunk: chunks/example-2-4.md
+            - title: "Table 10.24:"
+              chunk: chunks/table-10-24.md
+            - title: See also
+              chunk: chunks/see-also-6.md
+        - title: 10.21 AddSeries Description
+          chunk: chunks/10-21-addseries-description.md
+          children:
+            - title: Examples
+              chunk: chunks/examples-59.md
+            - title: Usage
+              chunk: chunks/usage-23.md
+            - title: See also
+              chunk: chunks/see-also-7.md
+            - title: See also
+              chunk: chunks/see-also-8.md
+            - title: Return value
+              chunk: chunks/return-value-1.md
+            - title: Usage
+              chunk: chunks/usage-24.md
+            - title: Example 1
+              chunk: chunks/example-1-4.md
+            - title: Example 2
+              chunk: chunks/example-2-5.md
+            - title: Example 3
+              chunk: chunks/example-3-1.md
+        - title: 10.29 Asc Description
+          chunk: chunks/10-29-asc-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-26.md
+            - title: "Table 10.36:"
+              chunk: chunks/table-10-36.md
+            - title: Return value
+              chunk: chunks/return-value-2.md
+            - title: Usage
+              chunk: chunks/usage-25.md
+            - title: Return value
+              chunk: chunks/return-value-3.md
+            - title: Return value
+              chunk: chunks/return-value-4.md
+            - title: Return value
+              chunk: chunks/return-value-5.md
+            - title: Return value
+              chunk: chunks/return-value-6.md
+            - title: Return value
+              chunk: chunks/return-value-7.md
+            - title: Return value
+              chunk: chunks/return-value-8.md
+            - title: Return value
+              chunk: chunks/return-value-9.md
+            - title: Return value
+              chunk: chunks/return-value-10.md
+            - title: Obsolete function
+              chunk: chunks/obsolete-function.md
+            - title: See also
+              chunk: chunks/see-also-9.md
+            - title: Return value
+              chunk: chunks/return-value-11.md
+            - title: Examples
+              chunk: chunks/examples-60.md
+            - title: Return value
+              chunk: chunks/return-value-12.md
+            - title: Include terminator character
+              chunk: chunks/include-terminator-character.md
+            - title: Examples
+              chunk: chunks/examples-61.md
+        - title: 10.45 BuildModel Description
+          chunk: chunks/10-45-buildmodel-description.md
+          children:
+            - title: Usage
+              chunk: chunks/usage-26.md
+        - title: 10.47 Cancel
+          chunk: chunks/10-47-cancel.md
+          children:
+            - title: Return value Integer. Returns 1 if it succeeds and -1 if an error occurs.
+                Examples
+              chunk: chunks/return-value-integer-returns-1-if-it-succeeds-and.md
+        - title: 10.48 CancelSync Description
+          chunk: chunks/10-48-cancelsync-description.md
+          children:
+            - title: 10.49 CanUndo Description Tests whether Undo can reverse the most recent
+                edit for an editable control. Applies to Any editable control
+                (DataWindow, MultiLineEdit, SingleLineEdit, RichTextEdit)
+              chunk: chunks/10-49-canundo-description-tests-whether-undo-can-r.md
+            - title: Syntax
+              chunk: chunks/syntax-27.md
+            - title: Return value Integer.
+              chunk: chunks/return-value-integer.md
+            - title: Examples
+              chunk: chunks/examples-62.md
+            - title: Return value
+              chunk: chunks/return-value-13.md
+            - title: See also
+              chunk: chunks/see-also-10.md
+        - title: 10.57 Check Description
+          chunk: chunks/10-57-check-description.md
+          children:
+            - title: Examples
+              chunk: chunks/examples-63.md
+            - title: "Table 10.70:"
+              chunk: chunks/table-10-70.md
+            - title: "Table 10.71:"
+              chunk: chunks/table-10-71.md
+            - title: Return value
+              chunk: chunks/return-value-14.md
+            - title: Usage
+              chunk: chunks/usage-27.md
+            - title: Return value
+              chunk: chunks/return-value-15.md
+            - title: Usage
+              chunk: chunks/usage-28.md
+        - title: 10.61 Clear
+          chunk: chunks/10-61-clear.md
+          children:
+            - title: Applies to
+              chunk: chunks/applies-to-2.md
+            - title: Syntax
+              chunk: chunks/syntax-28.md
+            - title: Examples
+              chunk: chunks/examples-64.md
+            - title: Return value
+              chunk: chunks/return-value-16.md
+            - title: See also
+              chunk: chunks/see-also-11.md
+            - title: "10.67.1 Syntax 1: For text Description"
+              chunk: chunks/10-67-1-syntax-1-for-text-description.md
+            - title: Applies to
+              chunk: chunks/applies-to-3.md
+            - title: Syntax
+              chunk: chunks/syntax-29.md
+            - title: Preventing a window from closing
+              chunk: chunks/preventing-a-window-from-closing.md
+            - title: Examples
+              chunk: chunks/examples-65.md
+            - title: See also
+              chunk: chunks/see-also-12.md
+            - title: Examples
+              chunk: chunks/examples-66.md
+            - title: See also
+              chunk: chunks/see-also-13.md
+        - title: 10.70 CloseTab Description
+          chunk: chunks/10-70-closetab-description.md
+          children:
+            - title: Examples
+              chunk: chunks/examples-67.md
+        - title: 10.71 CloseUserObject Description
+          chunk: chunks/10-71-closeuserobject-description.md
+          children:
+            - title: Examples
+              chunk: chunks/examples-68.md
+        - title: 10.72 CloseWithReturn Description
+          chunk: chunks/10-72-closewithreturn-description.md
+          children:
+            - title: Returning several values as a structure
+              chunk: chunks/returning-several-values-as-a-structure.md
+            - title: Referencing controls
+              chunk: chunks/referencing-controls.md
+            - title: Preventing a window from closing
+              chunk: chunks/preventing-a-window-from-closing-1.md
+            - title: Examples
+              chunk: chunks/examples-69.md
+            - title: Return value
+              chunk: chunks/return-value-17.md
+        - title: 10.74 CommandParm Description
+          chunk: chunks/10-74-commandparm-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-30.md
+            - title: Examples
+              chunk: chunks/examples-70.md
+            - title: Syntax
+              chunk: chunks/syntax-31.md
+            - title: Usage
+              chunk: chunks/usage-29.md
+        - title: 10.76 CommitTransaction (obsolete) Description
+          chunk: chunks/10-76-committransaction-obsolete-description.md
+          children:
+            - title: Obsolete function
+              chunk: chunks/obsolete-function-1.md
+            - title: Examples
+              chunk: chunks/examples-71.md
+            - title: RollbackTransaction (obsolete) SetTimeout (obsolete) SuspendTransaction
+                (obsolete)
+              chunk: chunks/rollbacktransaction-obsolete-settimeout-obsolete-s.md
+            - title: "Table 10.99:"
+              chunk: chunks/table-10-99.md
+            - title: Usage
+              chunk: chunks/usage-30.md
+        - title: 10.78 ConnectToNewObject Description
+          chunk: chunks/10-78-connecttonewobject-description.md
+          children:
+            - title: Deprecated support for COM and COM+ components
+              chunk: chunks/deprecated-support-for-com-and-com-components.md
+            - title: Examples
+              chunk: chunks/examples-72.md
+        - title: 10.79 ConnectToNewRemoteObject Description
+          chunk: chunks/10-79-connecttonewremoteobject-description.md
+        - title: 10.80 ConnectToObject Description
+          chunk: chunks/10-80-connecttoobject-description.md
+          children:
+            - title: "Table 10.102:"
+              chunk: chunks/table-10-102.md
+            - title: Declare and create an OLEObject variable
+              chunk: chunks/declare-and-create-an-oleobject-variable.md
+            - title: Examples
+              chunk: chunks/examples-73.md
+        - title: 10.81 ConnectToRemoteObject Description
+          chunk: chunks/10-81-connecttoremoteobject-description.md
+        - title: 10.82 ConnectToServer (obsolete) Description
+          chunk: chunks/10-82-connecttoserver-obsolete-description.md
+          children:
+            - title: Obsolete function
+              chunk: chunks/obsolete-function-2.md
+            - title: Examples
+              chunk: chunks/examples-74.md
+            - title: Syntax for JSONParser
+              chunk: chunks/syntax-for-jsonparser.md
+            - title: Return value
+              chunk: chunks/return-value-18.md
+        - title: 10.84 Copy Description
+          chunk: chunks/10-84-copy-description.md
+          children:
+            - title: Applies to
+              chunk: chunks/applies-to-4.md
+            - title: Syntax
+              chunk: chunks/syntax-32.md
+        - title: 10.85 CopyRTF Description
+          chunk: chunks/10-85-copyrtf-description.md
+          children:
+            - title: Examples
+              chunk: chunks/examples-75.md
+            - title: Examples
+              chunk: chunks/examples-76.md
+        - title: 10.89 CreateInstance Description
+          chunk: chunks/10-89-createinstance-description.md
+          children:
+            - title: Applies to
+              chunk: chunks/applies-to-5.md
+            - title: Syntax
+              chunk: chunks/syntax-33.md
+            - title: Syntax
+              chunk: chunks/syntax-34.md
+            - title: Return value
+              chunk: chunks/return-value-19.md
+        - title: 10.95 DataSource Description
+          chunk: chunks/10-95-datasource-description.md
+          children:
+            - title: Usage
+              chunk: chunks/usage-31.md
+        - title: 10.96 Date
+          chunk: chunks/10-96-date.md
+          children:
+            - title: Examples
+              chunk: chunks/examples-77.md
+            - title: Examples
+              chunk: chunks/examples-78.md
+            - title: See also
+              chunk: chunks/see-also-14.md
+        - title: 10.108 DeleteData Description
+          chunk: chunks/10-108-deletedata-description.md
+          children:
+            - title: 10.109 DeleteItem Deletes an item from a ListBox, DropDownListBox, or
+                ListView control.
+              chunk: chunks/10-109-deleteitem-deletes-an-item-from-a-listbox-d.md
+            - title: Examples
+              chunk: chunks/examples-79.md
+        - title: 10.110 DeleteItems Description Deletes all items from a ListView control.
+            Applies to
+          chunk: chunks/10-110-deleteitems-description-deletes-all-items-f.md
+          children:
+            - title: See also
+              chunk: chunks/see-also-15.md
+            - title: Syntax
+              chunk: chunks/syntax-35.md
+            - title: Examples
+              chunk: chunks/examples-80.md
+            - title: Syntax
+              chunk: chunks/syntax-36.md
+            - title: See also
+              chunk: chunks/see-also-16.md
+            - title: Return value
+              chunk: chunks/return-value-20.md
+            - title: Usage
+              chunk: chunks/usage-32.md
+            - title: Examples
+              chunk: chunks/examples-81.md
+            - title: Alternatives
+              chunk: chunks/alternatives.md
+            - title: Examples
+              chunk: chunks/examples-82.md
+        - title: 10.123 DirSelect Description
+          chunk: chunks/10-123-dirselect-description.md
+          children:
+            - title: Examples
+              chunk: chunks/examples-83.md
+        - title: 10.124 Disable Description
+          chunk: chunks/10-124-disable-description.md
+        - title: 10.125 DisableCommit Description
+          chunk: chunks/10-125-disablecommit-description.md
+          children:
+            - title: Examples
+              chunk: chunks/examples-84.md
+            - title: Examples
+              chunk: chunks/examples-85.md
+        - title: 10.129 DoVerb Description
+          chunk: chunks/10-129-doverb-description.md
+          children:
+            - title: Applies to
+              chunk: chunks/applies-to.md
+            - title: Syntax
+              chunk: chunks/syntax-37.md
+            - title: Dragging DataWindow controls
+              chunk: chunks/dragging-datawindow-controls.md
+            - title: Examples
+              chunk: chunks/examples-86.md
+            - title: Syntax
+              chunk: chunks/syntax-38.md
+            - title: Return value
+              chunk: chunks/return-value-21.md
+            - title: Usage
+              chunk: chunks/usage-33.md
+            - title: Examples
+              chunk: chunks/examples-87.md
+            - title: Examples
+              chunk: chunks/examples-88.md
+            - title: See also Move
+              chunk: chunks/see-also-move.md
+            - title: Examples
+              chunk: chunks/examples-89.md
+            - title: Syntax
+              chunk: chunks/syntax-39.md
+            - title: Examples
+              chunk: chunks/examples-90.md
+        - title: 10.136 EntryList Description
+          chunk: chunks/10-136-entrylist-description.md
+          children:
+            - title: Examples
+              chunk: chunks/examples-91.md
+            - title: See also
+              chunk: chunks/see-also-17.md
+            - title: Syntax
+              chunk: chunks/syntax-40.md
+            - title: Return value Integer.
+              chunk: chunks/return-value-integer-1.md
+            - title: Examples
+              chunk: chunks/examples-92.md
+        - title: 10.138 Exp Description
+          children:
+            - title: Raises e to the specified power. Syntax
+              chunk: chunks/raises-e-to-the-specified-power-syntax.md
+            - title: "Table 10.170:"
+              chunk: chunks/table-10-170.md
+            - title: "Table 10.171:"
+              chunk: chunks/table-10-171.md
+            - title: Usage
+              chunk: chunks/usage-34.md
+            - title: See also
+              chunk: chunks/see-also-18.md
+            - title: Return value Integer.
+              chunk: chunks/return-value-integer-2.md
+            - title: Examples
+              chunk: chunks/examples-93.md
+            - title: Examples
+              chunk: chunks/examples-94.md
+            - title: File security
+              chunk: chunks/file-security.md
+            - title: File security
+              chunk: chunks/file-security-1.md
+            - title: Syntax
+              chunk: chunks/syntax-41.md
+            - title: "Table 10.183:"
+              chunk: chunks/table-10-183.md
+            - title: File not found
+              chunk: chunks/file-not-found.md
+            - title: Examples
+              chunk: chunks/examples-95.md
+        - title: 10.152 FileRead Description
+          chunk: chunks/10-152-fileread-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-42.md
+            - title: Examples
+              chunk: chunks/examples-96.md
+        - title: 10.153 FileReadEx Description
+          chunk: chunks/10-153-filereadex-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-43.md
+            - title: FileReadEx returns long
+              chunk: chunks/filereadex-returns-long.md
+        - title: 10.154 FileSeek Description
+          chunk: chunks/10-154-fileseek-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-44.md
+        - title: 10.155 FileSeek64 Description
+          chunk: chunks/10-155-fileseek64-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-45.md
+        - title: 10.156 FileWrite Description
+          chunk: chunks/10-156-filewrite-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-46.md
+            - title: Return value Integer.
+              chunk: chunks/return-value-integer-3.md
+            - title: Length limit
+              chunk: chunks/length-limit.md
+            - title: Examples
+              chunk: chunks/examples-97.md
+        - title: 10.157 FileWriteEx Description
+          chunk: chunks/10-157-filewriteex-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-47.md
+            - title: FileWriteEx returns long
+              chunk: chunks/filewriteex-returns-long.md
+        - title: 10.158 Fill Description
+          chunk: chunks/10-158-fill-description.md
+        - title: 10.159 FillA Description
+          chunk: chunks/10-159-filla-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-48.md
+        - title: 10.160 FillW (obsolete) Description
+          chunk: chunks/10-160-fillw-obsolete-description.md
+        - title: 10.161 Find Description
+          chunk: chunks/10-161-find-description.md
+          children:
+            - title: Applies to
+              chunk: chunks/applies-to-6.md
+            - title: Syntax
+              chunk: chunks/syntax-49.md
+            - title: Examples
+              chunk: chunks/examples-98.md
+            - title: Examples
+              chunk: chunks/examples-99.md
+        - title: 10.163 FindClassDefinition Description
+          chunk: chunks/10-163-findclassdefinition-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-50.md
+            - title: Return value
+              chunk: chunks/return-value-22.md
+        - title: 10.164 FindFunctionDefinition Description
+          chunk: chunks/10-164-findfunctiondefinition-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-51.md
+            - title: Return value
+              chunk: chunks/return-value-23.md
+            - title: Usage
+              chunk: chunks/usage-35.md
+            - title: Examples
+              chunk: chunks/examples-100.md
+            - title: Usage
+              chunk: chunks/usage-36.md
+            - title: Examples
+              chunk: chunks/examples-101.md
+        - title: 10.166 FindMatchingFunction Description
+          chunk: chunks/10-166-findmatchingfunction-description.md
+          children:
+            - title: Return value
+              chunk: chunks/return-value-24.md
+            - title: Usage
+              chunk: chunks/usage-37.md
+            - title: Examples
+              chunk: chunks/examples-102.md
+        - title: 10.167 FindNext Description
+          chunk: chunks/10-167-findnext-description.md
+          children:
+            - title: Applies to
+              chunk: chunks/applies-to-7.md
+            - title: Syntax
+              chunk: chunks/syntax-52.md
+            - title: "Table 10.205:"
+              chunk: chunks/table-10-205.md
+            - title: "Table 10.206:"
+              chunk: chunks/table-10-206.md
+            - title: Examples
+              chunk: chunks/examples-103.md
+        - title: 10.169 FindTypeDefinition Description
+          chunk: chunks/10-169-findtypedefinition-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-53.md
+            - title: "Table 10.207:"
+              chunk: chunks/table-10-207.md
+            - title: Return value
+              chunk: chunks/return-value-25.md
+            - title: Usage
+              chunk: chunks/usage-38.md
+            - title: Unicode file format
+              chunk: chunks/unicode-file-format.md
+        - title: 10.171 FromUnicode Description
+          chunk: chunks/10-171-fromunicode-description.md
+        - title: 10.172 GarbageCollect Description Forces immediate garbage collection.
+            Syntax GarbageCollect ( ) Return value
+          chunk: chunks/10-172-garbagecollect-description-forces-immediate.md
+          children:
+            - title: See also
+              chunk: chunks/see-also-19.md
+            - title: "Table 10.210:"
+              chunk: chunks/table-10-210.md
+            - title: "Table 10.211:"
+              chunk: chunks/table-10-211.md
+            - title: Return value
+              chunk: chunks/return-value-26.md
+            - title: Usage
+              chunk: chunks/usage-39.md
+            - title: Examples
+              chunk: chunks/examples-104.md
+        - title: 10.177 GetAlignment Description
+          chunk: chunks/10-177-getalignment-description.md
+          children:
+            - title: Return value
+              chunk: chunks/return-value-27.md
+            - title: Usage
+              chunk: chunks/usage-40.md
+        - title: 10.178 GetApplication Description
+          chunk: chunks/10-178-getapplication-description.md
+          children:
+            - title: 10.179 GetArgElement Description Returns the value in the specified
+                argument. Applies to Window ActiveX controls
+              chunk: chunks/10-179-getargelement-description-returns-the-value.md
+            - title: Syntax
+              chunk: chunks/syntax-54.md
+        - title: 10.180 GetAutomationNativePointer Description
+          chunk: chunks/10-180-getautomationnativepointer-description.md
+          children:
+            - title: Applies to OLEObject Syntax
+              chunk: chunks/applies-to-oleobject-syntax.md
+            - title: Examples
+              chunk: chunks/examples-105.md
+        - title: 10.181 GetBody
+          chunk: chunks/10-181-getbody.md
+          children:
+            - title: Examples
+              chunk: chunks/examples-106.md
+            - title: Obsolete function
+              chunk: chunks/obsolete-function-3.md
+            - title: Example 1
+              chunk: chunks/example-1-5.md
+            - title: Example 2
+              chunk: chunks/example-2-6.md
+            - title: See also
+              chunk: chunks/see-also-20.md
+            - title: Return value String.
+              chunk: chunks/return-value-string.md
+            - title: Usage
+              chunk: chunks/usage-41.md
+            - title: Examples
+              chunk: chunks/examples-107.md
+            - title: "Table 10.226:"
+              chunk: chunks/table-10-226.md
+            - title: Examples
+              chunk: chunks/examples-108.md
+            - title: See also
+              chunk: chunks/see-also-21.md
+        - title: 10.191 GetCommandDDEOrigin Description
+          chunk: chunks/10-191-getcommandddeorigin-description.md
+          children:
+            - title: 10.192 GetCommandString Description Returns the command string sent by
+                dbmlsync to the synchronization server. Applies to MLSync
+                controls
+              chunk: chunks/10-192-getcommandstring-description-returns-the-co.md
+            - title: Syntax
+              chunk: chunks/syntax-55.md
+            - title: Examples
+              chunk: chunks/examples-109.md
+            - title: "Table 10.231:"
+              chunk: chunks/table-10-231.md
+            - title: "Table 10.232:"
+              chunk: chunks/table-10-232.md
+            - title: Using a CREATE statement
+              chunk: chunks/using-a-create-statement.md
+            - title: Examples
+              chunk: chunks/examples-110.md
+        - title: 10.196 GetCredentialAttribute (obsolete) Description
+          chunk: chunks/10-196-getcredentialattribute-obsolete-description.md
+          children:
+            - title: Obsolete function
+              chunk: chunks/obsolete-function-4.md
+            - title: Usage
+              chunk: chunks/usage-42.md
+            - title: Examples
+              chunk: chunks/examples-111.md
+            - title: Examples
+              chunk: chunks/examples-112.md
+            - title: Usage
+              chunk: chunks/usage-43.md
+            - title: Examples
+              chunk: chunks/examples-113.md
+            - title: Examples
+              chunk: chunks/examples-114.md
+        - title: 10.199 GetDataDDE Description
+          chunk: chunks/10-199-getdatadde-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-56.md
+            - title: Examples
+              chunk: chunks/examples-115.md
+        - title: 10.200 GetDataDDEOrigin Description
+          chunk: chunks/10-200-getdataddeorigin-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-57.md
+            - title: Return value
+              chunk: chunks/return-value-28.md
+            - title: Usage
+              chunk: chunks/usage-44.md
+            - title: Examples
+              chunk: chunks/examples-116.md
+        - title: 10.202 GetDataPieExplode Description
+          chunk: chunks/10-202-getdatapieexplode-description.md
+        - title: 10.203 GetDataStyle
+          chunk: chunks/10-203-getdatastyle.md
+          children:
+            - title: "Table 10.245:"
+              chunk: chunks/table-10-245.md
+        - title: 10.204 GetDataTransparency Description
+          chunk: chunks/10-204-getdatatransparency-description.md
+          children:
+            - title: Return value
+              chunk: chunks/return-value-29.md
+            - title: "Table 10.247:"
+              chunk: chunks/table-10-247.md
+            - title: Examples
+              chunk: chunks/examples-117.md
+            - title: Usage
+              chunk: chunks/usage-45.md
+            - title: Examples
+              chunk: chunks/examples-118.md
+            - title: Examples
+              chunk: chunks/examples-119.md
+        - title: 10.208 GetDisplayRange Description
+          chunk: chunks/10-208-getdisplayrange-description.md
+          children:
+            - title: Examples
+              chunk: chunks/examples-120.md
+        - title: 10.209 GetDynamicDate Description
+          chunk: chunks/10-209-getdynamicdate-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-58.md
+        - title: 10.210 GetDynamicDateTime Description
+          chunk: chunks/10-210-getdynamicdatetime-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-59.md
+            - title: Return value DateTime.
+              chunk: chunks/return-value-datetime.md
+            - title: Usage
+              chunk: chunks/usage-46.md
+            - title: Examples
+              chunk: chunks/examples-121.md
+        - title: 10.211 GetDynamicDecimal Description
+          chunk: chunks/10-211-getdynamicdecimal-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-60.md
+            - title: "Table 10.253:"
+              chunk: chunks/table-10-253.md
+        - title: 10.212 GetDynamicNumber Description
+          chunk: chunks/10-212-getdynamicnumber-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-61.md
+            - title: "Table 10.254:"
+              chunk: chunks/table-10-254.md
+        - title: 10.213 GetDynamicString Description
+          chunk: chunks/10-213-getdynamicstring-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-62.md
+            - title: Return value
+              chunk: chunks/return-value-30.md
+            - title: Usage
+              chunk: chunks/usage-47.md
+        - title: 10.214 GetDynamicTime Description
+          chunk: chunks/10-214-getdynamictime-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-63.md
+            - title: "Table 10.256:"
+              chunk: chunks/table-10-256.md
+            - title: "Table 10.257:"
+              chunk: chunks/table-10-257.md
+            - title: Examples
+              chunk: chunks/examples-122.md
+        - title: 10.217 GetFileOpenName Description
+          chunk: chunks/10-217-getfileopenname-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-64.md
+            - title: Examples
+              chunk: chunks/examples-123.md
+        - title: 10.218 GetFileSaveName Description
+          chunk: chunks/10-218-getfilesavename-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-65.md
+            - title: Examples
+              chunk: chunks/examples-124.md
+            - title: Return value
+              chunk: chunks/return-value-31.md
+            - title: Usage
+              chunk: chunks/usage-48.md
+            - title: Did GetFirstSheet return a valid window?
+              chunk: chunks/did-getfirstsheet-return-a-valid-window.md
+        - title: 10.220 GetFixesVersion Description
+          chunk: chunks/10-220-getfixesversion-description.md
+          children:
+            - title: Examples
+              chunk: chunks/examples-125.md
+        - title: 10.223 GetGlobalProperty (obsolete) Description
+          chunk: chunks/10-223-getglobalproperty-obsolete-description.md
+          children:
+            - title: Obsolete function
+              chunk: chunks/obsolete-function-5.md
+            - title: Usage
+              chunk: chunks/usage-49.md
+            - title: Examples
+              chunk: chunks/examples-126.md
+        - title: 10.224 GetHeader
+          chunk: chunks/10-224-getheader.md
+        - title: 10.225 GetHeaders
+          chunk: chunks/10-225-getheaders.md
+          children:
+            - title: Applies to TokenRequest objects Syntax
+              chunk: chunks/applies-to-tokenrequest-objects-syntax.md
+            - title: "Table 10.270:"
+              chunk: chunks/table-10-270.md
+            - title: "Table 10.271:"
+              chunk: chunks/table-10-271.md
+            - title: Examples
+              chunk: chunks/examples-127.md
+            - title: See also
+              chunk: chunks/see-also-22.md
+            - title: Host object support
+              chunk: chunks/host-object-support.md
+            - title: Examples
+              chunk: chunks/examples-128.md
+            - title: Return value
+              chunk: chunks/return-value-32.md
+            - title: Examples
+              chunk: chunks/examples-129.md
+            - title: See also SetItem
+              chunk: chunks/see-also-setitem.md
+            - title: Usage
+              chunk: chunks/usage-50.md
+            - title: Examples
+              chunk: chunks/examples-130.md
+        - title: 10.229 GetItemBlob
+          chunk: chunks/10-229-getitemblob.md
+        - title: 10.230 GetItemBoolean
+          chunk: chunks/10-230-getitemboolean.md
+          children:
+            - title: Examples
+              chunk: chunks/examples-131.md
+        - title: 10.231 GetItemDate
+          chunk: chunks/10-231-getitemdate.md
+          children:
+            - title: Usage
+              chunk: chunks/usage-51.md
+        - title: 10.232 GetItemDateTime
+          chunk: chunks/10-232-getitemdatetime.md
+        - title: 10.233 GetItemNumber
+          chunk: chunks/10-233-getitemnumber.md
+        - title: 10.235 GetItemString
+          chunk: chunks/10-235-getitemstring.md
+        - title: 10.236 GetItemTime
+          chunk: chunks/10-236-getitemtime.md
+          children:
+            - title: Return value
+              chunk: chunks/return-value-33.md
+            - title: Example 3
+              chunk: chunks/example-3-2.md
+            - title: Example 4
+              chunk: chunks/example-4-1.md
+            - title: Syntax
+              chunk: chunks/syntax-66.md
+            - title: "Table 10.296:"
+              chunk: chunks/table-10-296.md
+            - title: "Table 10.297:"
+              chunk: chunks/table-10-297.md
+            - title: Example 1
+              chunk: chunks/example-1-6.md
+            - title: Example 2
+              chunk: chunks/example-2-7.md
+            - title: Example 3
+              chunk: chunks/example-3-3.md
+            - title: Return value
+              chunk: chunks/return-value-34.md
+            - title: Return value String.
+              chunk: chunks/return-value-string-1.md
+            - title: Usage
+              chunk: chunks/usage-52.md
+        - title: 10.245 GetMajorVersion Description
+          chunk: chunks/10-245-getmajorversion-description.md
+          children:
+            - title: Examples
+              chunk: chunks/examples-132.md
+        - title: 10.247 GetMinorVersion Description
+          chunk: chunks/10-247-getminorversion-description.md
+          children:
+            - title: Examples
+              chunk: chunks/examples-133.md
+        - title: 10.249 GetNativePointer Description
+          chunk: chunks/10-249-getnativepointer-description.md
+          children:
+            - title: Return value Integer.
+              chunk: chunks/return-value-integer-4.md
+            - title: Only for external DLL calls
+              chunk: chunks/only-for-external-dll-calls.md
+            - title: Examples
+              chunk: chunks/examples-134.md
+            - title: Return value
+              chunk: chunks/return-value-35.md
+            - title: Usage
+              chunk: chunks/usage-53.md
+            - title: Did GetNextSheet return a valid window?
+              chunk: chunks/did-getnextsheet-return-a-valid-window.md
+            - title: Examples
+              chunk: chunks/examples-135.md
+            - title: Return value
+              chunk: chunks/return-value-36.md
+        - title: 10.252 GetObjectRevisionFromRegistry Description
+          chunk: chunks/10-252-getobjectrevisionfromregistry-description.md
+          children:
+            - title: See also
+              chunk: chunks/see-also-23.md
+            - title: Syntax
+              chunk: chunks/syntax-67.md
+            - title: See also
+              chunk: chunks/see-also-24.md
+        - title: 10.256 GetPin (obsolete) Description
+          chunk: chunks/10-256-getpin-obsolete-description.md
+          children:
+            - title: Obsolete function
+              chunk: chunks/obsolete-function-6.md
+            - title: Examples
+              chunk: chunks/examples-136.md
+            - title: Examples
+              chunk: chunks/examples-137.md
+        - title: 10.259 GetRemote
+          chunk: chunks/10-259-getremote.md
+          children:
+            - title: Examples
+              chunk: chunks/examples-138.md
+            - title: Syntax
+              chunk: chunks/syntax-68.md
+            - title: "Table 10.318:"
+              chunk: chunks/table-10-318.md
+            - title: Applies to HTTPClient and RestClient objects Syntax
+              chunk: chunks/applies-to-httpclient-and-restclient-objects-synta.md
+            - title: "Table 10.320:"
+              chunk: chunks/table-10-320.md
+            - title: "Table 10.321:"
+              chunk: chunks/table-10-321.md
+            - title: Gets all of the response headers' information. Applies to HTTPClient and
+                RestClient objects Syntax
+              chunk: chunks/gets-all-of-the-response-headers-information-appli.md
+            - title: "Table 10.323:"
+              chunk: chunks/table-10-323.md
+            - title: "Table 10.324:"
+              chunk: chunks/table-10-324.md
+            - title: Return value
+              chunk: chunks/return-value-37.md
+            - title: Usage
+              chunk: chunks/usage-54.md
+            - title: Examples
+              chunk: chunks/examples-139.md
+            - title: See also
+              chunk: chunks/see-also-25.md
+        - title: 10.271 GetSeriesStyle
+          chunk: chunks/10-271-getseriesstyle.md
+          children:
+            - title: "Table 10.331:"
+              chunk: chunks/table-10-331.md
+            - title: Syntax
+              chunk: chunks/syntax-69.md
+            - title: Examples
+              chunk: chunks/examples-140.md
+            - title: "Table 10.334:"
+              chunk: chunks/table-10-334.md
+        - title: 10.272 GetSeriesTransparency Description
+          chunk: chunks/10-272-getseriestransparency-description.md
+          children:
+            - title: "Table 10.335:"
+              chunk: chunks/table-10-335.md
+            - title: Examples
+              chunk: chunks/examples-141.md
+        - title: 10.274 GetSpacing Description
+          chunk: chunks/10-274-getspacing-description.md
+          children:
+            - title: Return value Long. Returns the response status code.
+              chunk: chunks/return-value-long-returns-the-response-status-code.md
+            - title: Examples
+              chunk: chunks/examples-142.md
+        - title: 10.276 GetStatusText
+          chunk: chunks/10-276-getstatustext.md
+          children:
+            - title: Obsolete function
+              chunk: chunks/obsolete-function-7.md
+        - title: 10.278 GetSyncRegistryProperties Description
+          chunk: chunks/10-278-getsyncregistryproperties-description.md
+          children:
+            - title: Return value Integer.
+              chunk: chunks/return-value-integer-5.md
+            - title: Usage
+              chunk: chunks/usage-55.md
+            - title: Examples
+              chunk: chunks/examples-143.md
+        - title: 10.279 GetText Description
+          chunk: chunks/10-279-gettext-description.md
+          children:
+            - title: "Table 10.344:"
+              chunk: chunks/table-10-344.md
+            - title: See also
+              chunk: chunks/see-also-26.md
+            - title: Return value
+              chunk: chunks/return-value-38.md
+            - title: Usage
+              chunk: chunks/usage-56.md
+            - title: Examples
+              chunk: chunks/examples-144.md
+            - title: See also
+              chunk: chunks/see-also-27.md
+            - title: Applies to DatePicker, MonthCalendar controls Syntax
+              chunk: chunks/applies-to-datepicker-monthcalendar-controls-synta.md
+            - title: "Table 10.348:"
+              chunk: chunks/table-10-348.md
+            - title: "Table 10.349:"
+              chunk: chunks/table-10-349.md
+            - title: Return value Integer.
+              chunk: chunks/return-value-integer-6.md
+            - title: Usage
+              chunk: chunks/usage-57.md
+            - title: Examples
+              chunk: chunks/examples-145.md
+            - title: See also
+              chunk: chunks/see-also-28.md
+            - title: Return value
+              chunk: chunks/return-value-39.md
+            - title: See also
+              chunk: chunks/see-also-29.md
+            - title: Obsolete function
+              chunk: chunks/obsolete-function-8.md
+            - title: "Table 10.355:"
+              chunk: chunks/table-10-355.md
+            - title: Examples
+              chunk: chunks/examples-146.md
+            - title: Examples
+              chunk: chunks/examples-147.md
+            - title: Return value
+              chunk: chunks/return-value-40.md
+            - title: Examples
+              chunk: chunks/examples-148.md
+            - title: Return value
+              chunk: chunks/return-value-41.md
+            - title: Return value
+              chunk: chunks/return-value-42.md
+            - title: "Table 10.362:"
+              chunk: chunks/table-10-362.md
+            - title: Return value
+              chunk: chunks/return-value-43.md
+            - title: Examples
+              chunk: chunks/examples-149.md
+            - title: Syntax
+              chunk: chunks/syntax-70.md
+            - title: Return value
+              chunk: chunks/return-value-44.md
+            - title: Return value
+              chunk: chunks/return-value-45.md
+            - title: Return value
+              chunk: chunks/return-value-40.md
+            - title: Examples
+              chunk: chunks/examples-150.md
+            - title: Return value
+              chunk: chunks/return-value-46.md
+        - title: 10.298 GetValueToDataWindow Description
+          chunk: chunks/10-298-getvaluetodatawindow-description.md
+          children:
+            - title: "Table 10.367:"
+              chunk: chunks/table-10-367.md
+            - title: Return value
+              chunk: chunks/return-value-47.md
+            - title: Example 2
+              chunk: chunks/example-2-8.md
+            - title: Example 3
+              chunk: chunks/example-3-4.md
+        - title: 10.299 GetVersionName Description
+          chunk: chunks/10-299-getversionname-description.md
+        - title: 10.300 Handle Description
+          chunk: chunks/10-300-handle-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-71.md
+            - title: Return value
+              chunk: chunks/return-value-48.md
+            - title: Usage
+              chunk: chunks/usage-58.md
+            - title: See also Send
+              chunk: chunks/see-also-send.md
+            - title: Return value
+              chunk: chunks/return-value-49.md
+        - title: 10.303 Hide Description
+          chunk: chunks/10-303-hide-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-72.md
+        - title: 10.304 HMAC
+          chunk: chunks/10-304-hmac.md
+          children:
+            - title: Return value
+              chunk: chunks/return-value-50.md
+            - title: Tip
+              chunk: chunks/tip.md
+        - title: 10.308 ImpersonateClient Description
+          chunk: chunks/10-308-impersonateclient-description.md
+          children:
+            - title: Examples
+              chunk: chunks/examples-151.md
+        - title: 10.309 ImportClipboard Description
+          chunk: chunks/10-309-importclipboard-description.md
+          children:
+            - title: Applies to
+              chunk: chunks/applies-to-8.md
+            - title: Syntax
+              chunk: chunks/syntax-73.md
+            - title: "Table 10.378:"
+              chunk: chunks/table-10-378.md
+            - title: Return value
+              chunk: chunks/return-value-51.md
+            - title: Usage
+              chunk: chunks/usage-59.md
+            - title: Examples
+              chunk: chunks/examples-152.md
+        - title: 10.310 ImportFile Description
+          chunk: chunks/10-310-importfile-description.md
+          children:
+            - title: Applies to
+              chunk: chunks/applies-to-8.md
+            - title: Syntax
+              chunk: chunks/syntax-74.md
+            - title: "Table 10.379:"
+              chunk: chunks/table-10-379.md
+            - title: Return value
+              chunk: chunks/return-value-52.md
+            - title: Usage
+              chunk: chunks/usage-60.md
+            - title: Specifying a null string for file name
+              chunk: chunks/specifying-a-null-string-for-file-name.md
+            - title: Examples
+              chunk: chunks/examples-153.md
+        - title: 10.311 ImportString Description
+          chunk: chunks/10-311-importstring-description.md
+          children:
+            - title: Applies to
+              chunk: chunks/applies-to-8.md
+            - title: Syntax
+              chunk: chunks/syntax-75.md
+            - title: "Table 10.381:"
+              chunk: chunks/table-10-381.md
+            - title: Return value
+              chunk: chunks/return-value-53.md
+            - title: Examples
+              chunk: chunks/examples-154.md
+            - title: Examples
+              chunk: chunks/examples-155.md
+        - title: 10.313 Init (obsolete) Description
+          chunk: chunks/10-313-init-obsolete-description.md
+          children:
+            - title: Return value Integer.
+              chunk: chunks/return-value-integer-7.md
+            - title: Examples
+              chunk: chunks/examples-156.md
+            - title: Examples
+              chunk: chunks/examples-157.md
+        - title: 10.315 InputFieldCurrentName Description
+          chunk: chunks/10-315-inputfieldcurrentname-description.md
+          children:
+            - title: "Table 10.385:"
+              chunk: chunks/table-10-385.md
+            - title: Return value
+              chunk: chunks/return-value-54.md
+            - title: Usage
+              chunk: chunks/usage-61.md
+            - title: Examples
+              chunk: chunks/examples-158.md
+        - title: 10.320 InsertCategory Description
+          chunk: chunks/10-320-insertcategory-description.md
+          children:
+            - title: Applies to
+              chunk: chunks/applies-to-8.md
+            - title: Syntax
+              chunk: chunks/syntax-76.md
+            - title: "Table 10.390:"
+              chunk: chunks/table-10-390.md
+            - title: Examples
+              chunk: chunks/examples-159.md
+            - title: See also
+              chunk: chunks/see-also-30.md
+            - title: Return value
+              chunk: chunks/return-value-55.md
+            - title: Applies to
+              chunk: chunks/applies-to-8.md
+            - title: Syntax
+              chunk: chunks/syntax-77.md
+            - title: Return value
+              chunk: chunks/return-value-56.md
+            - title: Usage
+              chunk: chunks/usage-62.md
+            - title: Examples
+              chunk: chunks/examples-160.md
+        - title: 10.324 InsertDocument Description
+          chunk: chunks/10-324-insertdocument-description.md
+          children:
+            - title: "Table 10.394:"
+              chunk: chunks/table-10-394.md
+        - title: 10.325 InsertFile Description
+          chunk: chunks/10-325-insertfile-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-78.md
+            - title: "Table 10.395:"
+              chunk: chunks/table-10-395.md
+            - title: Examples
+              chunk: chunks/examples-161.md
+            - title: Return value
+              chunk: chunks/return-value-57.md
+            - title: Usage
+              chunk: chunks/usage-63.md
+            - title: Return value
+              chunk: chunks/return-value-58.md
+            - title: ListView controls Syntax
+              chunk: chunks/listview-controls-syntax.md
+            - title: "Table 10.400:"
+              chunk: chunks/table-10-400.md
+            - title: "Table 10.401:"
+              chunk: chunks/table-10-401.md
+            - title: Examples
+              chunk: chunks/examples-162.md
+            - title: Examples
+              chunk: chunks/examples-163.md
+            - title: Syntax
+              chunk: chunks/syntax-79.md
+            - title: "10.328.1 Syntax 1: For TreeView controls Description"
+              chunk: chunks/10-328-1-syntax-1-for-treeview-controls-descriptio.md
+            - title: Examples
+              chunk: chunks/examples-164.md
+            - title: Examples
+              chunk: chunks/examples-165.md
+        - title: 10.330 InsertObject Description
+          chunk: chunks/10-330-insertobject-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-80.md
+            - title: Return value
+              chunk: chunks/return-value-59.md
+            - title: Return value
+              chunk: chunks/return-value-60.md
+            - title: Examples
+              chunk: chunks/examples-166.md
+        - title: 10.332 InsertSeries Description
+          chunk: chunks/10-332-insertseries-description.md
+          children:
+            - title: Applies to
+              chunk: chunks/applies-to-8.md
+            - title: Syntax
+              chunk: chunks/syntax-81.md
+            - title: Return value
+              chunk: chunks/return-value-61.md
+            - title: Examples
+              chunk: chunks/examples-167.md
+            - title: See also
+              chunk: chunks/see-also-31.md
+        - title: 10.335 InternetData Description
+          chunk: chunks/10-335-internetdata-description.md
+          children:
+            - title: Do not call this function explicitly
+              chunk: chunks/do-not-call-this-function-explicitly.md
+            - title: Examples
+              chunk: chunks/examples-168.md
+            - title: See also IntLow
+              chunk: chunks/see-also-intlow.md
+        - title: 10.339 _Is_A (obsolete) Description
+          chunk: chunks/10-339-is-a-obsolete-description.md
+          children:
+            - title: Usage
+              chunk: chunks/usage-64.md
+            - title: Examples
+              chunk: chunks/examples-169.md
+            - title: Examples
+              chunk: chunks/examples-170.md
+            - title: Examples
+              chunk: chunks/examples-171.md
+            - title: Examples
+              chunk: chunks/examples-172.md
+            - title: Examples
+              chunk: chunks/examples-173.md
+            - title: See also
+              chunk: chunks/see-also-32.md
+        - title: 10.345 IsArabic Description
+          chunk: chunks/10-345-isarabic-description.md
+          children:
+            - title: 10.346 IsArabicAndNumbers Description Tests whether a particular string
+                is composed entirely of Arabic characters or numbers. Syntax
+              chunk: chunks/10-346-isarabicandnumbers-description-tests-whethe.md
+            - title: Return value
+              chunk: chunks/return-value-62.md
+            - title: Package must run in a dedicated server process
+              chunk: chunks/package-must-run-in-a-dedicated-server-process.md
+            - title: Examples
+              chunk: chunks/examples-174.md
+        - title: 10.349 IsHebrew Description
+          chunk: chunks/10-349-ishebrew-description.md
+          children:
+            - title: 10.350 IsHebrewAndNumbers Description Tests whether a particular string
+                is composed entirely of Hebrew characters and numbers. Syntax
+                IsHebrewAndNumbers ( string )
+              chunk: chunks/10-350-ishebrewandnumbers-description-tests-whethe.md
+            - title: Return value Boolean. Returns true if the component is impersonating the
+                client and false if it is not. Usage
+              chunk: chunks/return-value-boolean-returns-true-if-the-component.md
+            - title: Return value Boolean.
+              chunk: chunks/return-value-boolean.md
+            - title: See also
+              chunk: chunks/see-also-33.md
+            - title: Syntax
+              chunk: chunks/syntax-82.md
+        - title: 10.358 IsTransactionAborted (obsolete) Description
+          chunk: chunks/10-358-istransactionaborted-obsolete-description.md
+          children:
+            - title: Obsolete function
+              chunk: chunks/obsolete-function-9.md
+        - title: 10.359 IsValid Description
+          chunk: chunks/10-359-isvalid-description.md
+          children:
+            - title: See also Handle
+              chunk: chunks/see-also-handle.md
+            - title: The following table categorizes KeyCode values by type of key and
+                provides explanations of names that might not be obvious.
+              chunk: chunks/the-following-table-categorizes-keycode-values-by.md
+            - title: Examples
+              chunk: chunks/examples-175.md
+            - title: See also Pos
+              chunk: chunks/see-also-pos.md
+        - title: 10.364 LeftA Description
+          chunk: chunks/10-364-lefta-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-83.md
+            - title: Return value
+              chunk: chunks/return-value-63.md
+        - title: 10.367 LeftTrimW (obsolete) Description Removes spaces from the beginning
+            of a string.
+          chunk: chunks/10-367-lefttrimw-obsolete-description-removes-spac.md
+        - title: 10.369 LenA Description
+          chunk: chunks/10-369-lena-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-84.md
+            - title: See also
+              chunk: chunks/see-also-34.md
+            - title: Examples
+              chunk: chunks/examples-176.md
+            - title: See also
+              chunk: chunks/see-also-35.md
+        - title: 10.373 LibraryDelete Description
+          chunk: chunks/10-373-librarydelete-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-85.md
+            - title: Examples
+              chunk: chunks/examples-177.md
+        - title: 10.374 LibraryDirectory Description
+          chunk: chunks/10-374-librarydirectory-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-86.md
+            - title: Usage
+              chunk: chunks/usage-65.md
+        - title: 10.375 LibraryDirectoryEx Description
+          chunk: chunks/10-375-librarydirectoryex-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-87.md
+            - title: "Table 10.455:"
+              chunk: chunks/table-10-455.md
+            - title: Usage
+              chunk: chunks/usage-66.md
+            - title: Examples
+              chunk: chunks/examples-178.md
+        - title: 10.377 LibraryImport Description
+          chunk: chunks/10-377-libraryimport-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-88.md
+            - title: "Table 10.457:"
+              chunk: chunks/table-10-457.md
+            - title: Examples
+              chunk: chunks/examples-179.md
+            - title: Insertion point in editable controls
+              chunk: chunks/insertion-point-in-editable-controls.md
+            - title: Examples
+              chunk: chunks/examples-180.md
+            - title: Examples
+              chunk: chunks/examples-181.md
+            - title: See also
+              chunk: chunks/see-also-36.md
+        - title: 10.387 Log
+          chunk: chunks/10-387-log.md
+          children:
+            - title: 10.389 Long Converts data into data of type long. There are two syntaxes.
+              chunk: chunks/10-389-long-converts-data-into-data-of-type-long-t.md
+            - title: "Table 10.473:"
+              chunk: chunks/table-10-473.md
+            - title: "Table 10.474:"
+              chunk: chunks/table-10-474.md
+            - title: Syntax
+              chunk: chunks/syntax-89.md
+            - title: Return value
+              chunk: chunks/return-value-64.md
+        - title: 10.391 Lookup (obsolete)
+          chunk: chunks/10-391-lookup-obsolete.md
+          children:
+            - title: Obsolete function
+              chunk: chunks/obsolete-function-10.md
+            - title: "10.391.1 Syntax 1: For CORBA-compliant EAServer components Description"
+              chunk: chunks/10-391-1-syntax-1-for-corba-compliant-easerver-com.md
+            - title: Examples
+              chunk: chunks/examples-182.md
+            - title: EJBConnection
+              chunk: chunks/ejbconnection.md
+            - title: Lookup is case sensitive
+              chunk: chunks/lookup-is-case-sensitive.md
+            - title: Examples
+              chunk: chunks/examples-183.md
+            - title: Examples
+              chunk: chunks/examples-184.md
+            - title: Examples
+              chunk: chunks/examples-185.md
+            - title: Examples
+              chunk: chunks/examples-186.md
+        - title: 10.396 mailGetMessages Description
+          chunk: chunks/10-396-mailgetmessages-description.md
+          children:
+            - title: Examples
+              chunk: chunks/examples-187.md
+        - title: 10.398 mailLogoff Description
+          chunk: chunks/10-398-maillogoff-description.md
+        - title: 10.399 mailLogon Description
+          chunk: chunks/10-399-maillogon-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-90.md
+            - title: Examples
+              chunk: chunks/examples-188.md
+        - title: 10.400 mailReadMessage Description
+          chunk: chunks/10-400-mailreadmessage-description.md
+          children:
+            - title: "Table 10.488:"
+              chunk: chunks/table-10-488.md
+            - title: Reading attachments
+              chunk: chunks/reading-attachments.md
+            - title: Examples
+              chunk: chunks/examples-189.md
+        - title: 10.402 mailResolveRecipient Description
+          chunk: chunks/10-402-mailresolverecipient-description.md
+          children:
+            - title: "Table 10.490:"
+              chunk: chunks/table-10-490.md
+            - title: Examples
+              chunk: chunks/examples-190.md
+            - title: Examples
+              chunk: chunks/examples-191.md
+        - title: 10.404 mailSend Description
+          chunk: chunks/10-404-mailsend-description.md
+          children:
+            - title: "Table 10.492:"
+              chunk: chunks/table-10-492.md
+            - title: Examples
+              chunk: chunks/examples-192.md
+            - title: "The metacharacters asterisk (*), plus (+), and question mark (?) are
+                unary operators that are used to specify repetitions in a
+                regular expression:"
+              chunk: chunks/the-metacharacters-asterisk-plus-and-question-mark.md
+            - title: Examples
+              chunk: chunks/examples-193.md
+            - title: See also
+              chunk: chunks/see-also-37.md
+            - title: Return value
+              chunk: chunks/return-value-65.md
+            - title: Return value
+              chunk: chunks/return-value-66.md
+        - title: 10.409 MemberDelete Description
+          chunk: chunks/10-409-memberdelete-description.md
+        - title: 10.410 MemberExists Description
+          chunk: chunks/10-410-memberexists-description.md
+        - title: 10.411 MemberRename Description
+          chunk: chunks/10-411-memberrename-description.md
+          children:
+            - title: See also
+              chunk: chunks/see-also-38.md
+            - title: When MessageBox does not work
+              chunk: chunks/when-messagebox-does-not-work.md
+        - title: 10.414 MidA Description
+          chunk: chunks/10-414-mida-description.md
+          children:
+            - title: 10.415 MidW (obsolete) Description Obtains a specified number of
+                characters from a specified position in a string. This function
+                is obsolete. It has the same behavior as Mid. Syntax MidW (
+                string, start {, length } )
+              chunk: chunks/10-415-midw-obsolete-description-obtains-a-specifi.md
+            - title: Return value
+              chunk: chunks/return-value-67.md
+        - title: 10.419 ModifyData
+          chunk: chunks/10-419-modifydata.md
+          children:
+            - title: Usage
+              chunk: chunks/usage-67.md
+            - title: Examples
+              chunk: chunks/examples-194.md
+            - title: Applies to
+              chunk: chunks/applies-to-9.md
+            - title: Syntax
+              chunk: chunks/syntax-91.md
+            - title: Examples
+              chunk: chunks/examples-195.md
+            - title: Examples
+              chunk: chunks/examples-196.md
+            - title: Obsolete function
+              chunk: chunks/obsolete-function-11.md
+            - title: Examples
+              chunk: chunks/examples-197.md
+            - title: Examples
+              chunk: chunks/examples-198.md
+            - title: See also
+              chunk: chunks/see-also-39.md
+        - title: 10.426 ObjectAtPointer Description
+          chunk: chunks/10-426-objectatpointer-description.md
+          children:
+            - title: Return value
+              chunk: chunks/return-value-68.md
+            - title: Usage
+              chunk: chunks/usage-68.md
+            - title: Call ObjectAtPointer first
+              chunk: chunks/call-objectatpointer-first.md
+            - title: Examples
+              chunk: chunks/examples-199.md
+            - title: See also
+              chunk: chunks/see-also-40.md
+            - title: For OLE objects
+              chunk: chunks/for-ole-objects.md
+            - title: Return value
+              chunk: chunks/return-value-69.md
+            - title: Calling Open twice
+              chunk: chunks/calling-open-twice.md
+            - title: Mouse behavior and response windows
+              chunk: chunks/mouse-behavior-and-response-windows.md
+            - title: Return value Integer.
+              chunk: chunks/return-value-integer-8.md
+            - title: Usage
+              chunk: chunks/usage-69.md
+            - title: Considerations when specifying a window type
+              chunk: chunks/considerations-when-specifying-a-window-type.md
+            - title: Opening nested objects
+              chunk: chunks/opening-nested-objects.md
+            - title: Examples
+              chunk: chunks/examples-200.md
+            - title: Usage
+              chunk: chunks/usage-70.md
+            - title: Opening nested objects
+              chunk: chunks/opening-nested-objects-1.md
+            - title: Examples
+              chunk: chunks/examples-201.md
+            - title: Examples
+              chunk: chunks/examples-202.md
+            - title: See also Close
+              chunk: chunks/see-also-close.md
+            - title: Usage
+              chunk: chunks/usage-71.md
+            - title: See also
+              chunk: chunks/see-also-41.md
+            - title: About server applications
+              chunk: chunks/about-server-applications.md
+            - title: Examples
+              chunk: chunks/examples-203.md
+        - title: 10.430 OpenSheet Description
+          chunk: chunks/10-430-opensheet-description.md
+          children:
+            - title: "Table 10.530:"
+              chunk: chunks/table-10-530.md
+            - title: Examples
+              chunk: chunks/examples-204.md
+            - title: "Table 10.531:"
+              chunk: chunks/table-10-531.md
+        - title: 10.432 OpenSheetDocked Description
+          chunk: chunks/10-432-opensheetdocked-description.md
+          children:
+            - title: "Table 10.532:"
+              chunk: chunks/table-10-532.md
+            - title: Usage
+              chunk: chunks/usage-72.md
+            - title: Avoiding null object references
+              chunk: chunks/avoiding-null-object-references.md
+        - title: 10.436 OpenSheetWithParmAsDocument Description
+          chunk: chunks/10-436-opensheetwithparmasdocument-description.md
+          children:
+            - title: "Table 10.537:"
+              chunk: chunks/table-10-537.md
+            - title: "Table 10.538:"
+              chunk: chunks/table-10-538.md
+            - title: Avoiding null object references
+              chunk: chunks/avoiding-null-object-references-1.md
+        - title: 10.437 OpenSheetWithParmDocked Description
+          chunk: chunks/10-437-opensheetwithparmdocked-description.md
+          children:
+            - title: "Table 10.539:"
+              chunk: chunks/table-10-539.md
+            - title: Avoiding null object references
+              chunk: chunks/avoiding-null-object-references-1.md
+        - title: 10.438 OpenSheetWithParmFromDockingState Description
+          chunk: chunks/10-438-opensheetwithparmfromdockingstate-descripti.md
+          children:
+            - title: "Table 10.541:"
+              chunk: chunks/table-10-541.md
+            - title: "Table 10.542:"
+              chunk: chunks/table-10-542.md
+            - title: Avoiding null object references
+              chunk: chunks/avoiding-null-object-references-1.md
+        - title: 10.439 OpenSheetWithParmInTabGroup Description
+          chunk: chunks/10-439-opensheetwithparmintabgroup-description.md
+          children:
+            - title: Return value
+              chunk: chunks/return-value-70.md
+            - title: "10.440.1 Syntax 1: For user objects of a known datatype Description"
+              chunk: chunks/10-440-1-syntax-1-for-user-objects-of-a-known-data.md
+            - title: Opening the same object twice
+              chunk: chunks/opening-the-same-object-twice.md
+            - title: Behavior change
+              chunk: chunks/behavior-change.md
+            - title: Examples
+              chunk: chunks/examples-205.md
+            - title: "Table 10.547:"
+              chunk: chunks/table-10-547.md
+            - title: Behavior change
+              chunk: chunks/behavior-change.md
+            - title: Considerations when specifying a user object type
+              chunk: chunks/considerations-when-specifying-a-user-object-type.md
+            - title: Examples
+              chunk: chunks/examples-206.md
+        - title: 10.441 OpenTabWithParm
+          chunk: chunks/10-441-opentabwithparm.md
+          children:
+            - title: Avoiding null object references
+              chunk: chunks/avoiding-null-object-references-2.md
+            - title: "Table 10.551:"
+              chunk: chunks/table-10-551.md
+            - title: "Table 10.552:"
+              chunk: chunks/table-10-552.md
+            - title: Avoiding null object references
+              chunk: chunks/avoiding-null-object-references-3.md
+        - title: 10.442 OpenUserObject
+          chunk: chunks/10-442-openuserobject.md
+          children:
+            - title: Return value
+              chunk: chunks/return-value-71.md
+            - title: Usage
+              chunk: chunks/usage-73.md
+            - title: Calling OpenUserObject twice
+              chunk: chunks/calling-openuserobject-twice.md
+            - title: Examples
+              chunk: chunks/examples-207.md
+            - title: Syntax
+              chunk: chunks/syntax-92.md
+            - title: Return value
+              chunk: chunks/return-value-71.md
+            - title: Usage
+              chunk: chunks/usage-74.md
+            - title: The userobjecttype argument
+              chunk: chunks/the-userobjecttype-argument.md
+            - title: Examples
+              chunk: chunks/examples-208.md
+        - title: 10.443 OpenUserObjectWithParm
+          chunk: chunks/10-443-openuserobjectwithparm.md
+          children:
+            - title: Return value
+              chunk: chunks/return-value-72.md
+            - title: Usage
+              chunk: chunks/usage-75.md
+            - title: Avoiding null object references
+              chunk: chunks/avoiding-null-object-references-4.md
+            - title: Examples
+              chunk: chunks/examples-209.md
+            - title: "Table 10.559:"
+              chunk: chunks/table-10-559.md
+            - title: Return value
+              chunk: chunks/return-value-72.md
+            - title: Usage
+              chunk: chunks/usage-76.md
+            - title: Avoiding null object references
+              chunk: chunks/avoiding-null-object-references-5.md
+            - title: Examples
+              chunk: chunks/examples-210.md
+        - title: 10.444 OpenWithParm
+          chunk: chunks/10-444-openwithparm.md
+          children:
+            - title: "10.444.1 Syntax 1: For windows of a known datatype Description"
+              chunk: chunks/10-444-1-syntax-1-for-windows-of-a-known-datatype.md
+            - title: Avoiding null object references
+              chunk: chunks/avoiding-null-object-references-6.md
+            - title: Passing several values as a structure
+              chunk: chunks/passing-several-values-as-a-structure.md
+            - title: Applies to
+              chunk: chunks/applies-to-10.md
+            - title: Avoiding null object references
+              chunk: chunks/avoiding-null-object-references-7.md
+            - title: Passing several values as a structure
+              chunk: chunks/passing-several-values-as-a-structure-1.md
+            - title: Syntax
+              chunk: chunks/syntax-93.md
+            - title: Examples
+              chunk: chunks/examples-211.md
+            - title: See also
+              chunk: chunks/see-also-42.md
+            - title: Applies to User objects used as tab pages Syntax
+              chunk: chunks/applies-to-user-objects-used-as-tab-pages-syntax.md
+            - title: "Table 10.568:"
+              chunk: chunks/table-10-568.md
+            - title: "Table 10.569:"
+              chunk: chunks/table-10-569.md
+            - title: Return value
+              chunk: chunks/return-value-73.md
+            - title: Usage
+              chunk: chunks/usage-77.md
+        - title: 10.449 Paste Description
+          chunk: chunks/10-449-paste-description.md
+          children:
+            - title: Applies to
+              chunk: chunks/applies-to-11.md
+            - title: Syntax
+              chunk: chunks/syntax-94.md
+        - title: 10.450 PasteLink Description
+          chunk: chunks/10-450-pastelink-description.md
+          children:
+            - title: Return value
+              chunk: chunks/return-value-74.md
+        - title: 10.451 PasteRTF Description
+          chunk: chunks/10-451-pastertf-description.md
+        - title: 10.452 PasteSpecial Description
+          chunk: chunks/10-452-pastespecial-description.md
+          children:
+            - title: See also LinkTo
+              chunk: chunks/see-also-linkto.md
+        - title: 10.453 PBAddCookie (Obsolete) Description
+          chunk: chunks/10-453-pbaddcookie-obsolete-description.md
+          children:
+            - title: 10.454 PBGetCookies (Obsolete) Description Gets the cookies associated
+                with a .NET Web service that you invoke from a proxy object.
+                Syntax
+              chunk: chunks/10-454-pbgetcookies-obsolete-description-gets-the.md
+            - title: Examples
+              chunk: chunks/examples-212.md
+            - title: "Table 10.576:"
+              chunk: chunks/table-10-576.md
+            - title: "Table 10.577:"
+              chunk: chunks/table-10-577.md
+            - title: Return value
+              chunk: chunks/return-value-75.md
+        - title: 10.457 PixelsToUnits Description
+          chunk: chunks/10-457-pixelstounits-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-95.md
+            - title: Return value
+              chunk: chunks/return-value-76.md
+            - title: Examples
+              chunk: chunks/examples-213.md
+            - title: Examples
+              chunk: chunks/examples-214.md
+            - title: See also Stop
+              chunk: chunks/see-also-stop.md
+            - title: Return value
+              chunk: chunks/return-value-77.md
+            - title: Examples
+              chunk: chunks/examples-215.md
+            - title: Return value
+              chunk: chunks/return-value-78.md
+            - title: Calling PopMenu in an object script
+              chunk: chunks/calling-popmenu-in-an-object-script.md
+            - title: Examples
+              chunk: chunks/examples-216.md
+            - title: Examples
+              chunk: chunks/examples-217.md
+            - title: Return value
+              chunk: chunks/return-value-79.md
+        - title: 10.464 PosA Description
+          chunk: chunks/10-464-posa-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-96.md
+            - title: "Table 10.585:"
+              chunk: chunks/table-10-585.md
+            - title: Usage
+              chunk: chunks/usage-78.md
+            - title: Examples
+              chunk: chunks/examples-218.md
+            - title: See also
+              chunk: chunks/see-also-43.md
+            - title: "Table 10.588:"
+              chunk: chunks/table-10-588.md
+            - title: Return value
+              chunk: chunks/return-value-80.md
+            - title: Usage
+              chunk: chunks/usage-79.md
+        - title: 10.467 Post Description
+          chunk: chunks/10-467-post-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-97.md
+            - title: Syntax
+              chunk: chunks/syntax-98.md
+            - title: Return value
+              chunk: chunks/return-value-81.md
+            - title: Usage
+              chunk: chunks/usage-80.md
+            - title: Examples
+              chunk: chunks/examples-219.md
+        - title: 10.472 PostURL Description
+          chunk: chunks/10-472-posturl-description.md
+          children:
+            - title: "Table 10.594:"
+              chunk: chunks/table-10-594.md
+            - title: Timeout value for sending a request
+              chunk: chunks/timeout-value-for-sending-a-request.md
+            - title: Examples
+              chunk: chunks/examples-220.md
+        - title: 10.473 Preview Description
+          chunk: chunks/10-473-preview-description.md
+        - title: 10.474 Print
+          chunk: chunks/10-474-print.md
+          children:
+            - title: Return value
+              chunk: chunks/return-value-82.md
+            - title: Usage
+              chunk: chunks/usage-81.md
+            - title: "Table 10.598:"
+              chunk: chunks/table-10-598.md
+            - title: Return value
+              chunk: chunks/return-value-82.md
+            - title: Usage
+              chunk: chunks/usage-82.md
+            - title: Examples
+              chunk: chunks/examples-221.md
+            - title: Examples
+              chunk: chunks/examples-222.md
+            - title: Return value
+              chunk: chunks/return-value-83.md
+            - title: Usage
+              chunk: chunks/usage-83.md
+            - title: Examples
+              chunk: chunks/examples-223.md
+        - title: 10.476 PrintCancel Description
+          chunk: chunks/10-476-printcancel-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-99.md
+            - title: Return value
+              chunk: chunks/return-value-84.md
+            - title: Usage
+              chunk: chunks/usage-84.md
+            - title: Examples
+              chunk: chunks/examples-224.md
+        - title: 10.477 PrintClose Description
+          chunk: chunks/10-477-printclose-description.md
+          children:
+            - title: 10.478 PrintDataWindow Description Prints the contents of a DataWindow
+                control or DataStore as a print job. Syntax PrintDataWindow (
+                printjobnumber, dwcontrol )
+              chunk: chunks/10-478-printdatawindow-description-prints-the-cont.md
+            - title: Return value
+              chunk: chunks/return-value-85.md
+        - title: 10.479 PrintDefineFont Description
+          chunk: chunks/10-479-printdefinefont-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-100.md
+            - title: Return value
+              chunk: chunks/return-value-86.md
+            - title: Usage
+              chunk: chunks/usage-85.md
+            - title: Fonts in Microsoft Windows
+              chunk: chunks/fonts-in-microsoft-windows.md
+            - title: Font names and sizes
+              chunk: chunks/font-names-and-sizes.md
+            - title: Examples
+              chunk: chunks/examples-225.md
+            - title: See also
+              chunk: chunks/see-also-44.md
+            - title: Return value
+              chunk: chunks/return-value-87.md
+            - title: Usage
+              chunk: chunks/usage-86.md
+            - title: Examples
+              chunk: chunks/examples-226.md
+            - title: Usage
+              chunk: chunks/usage-87.md
+            - title: Examples
+              chunk: chunks/examples-227.md
+            - title: Syntax
+              chunk: chunks/syntax-101.md
+            - title: Return value
+              chunk: chunks/return-value-88.md
+            - title: Usage
+              chunk: chunks/usage-88.md
+            - title: Examples
+              chunk: chunks/examples-228.md
+            - title: Return value
+              chunk: chunks/return-value-89.md
+            - title: Usage
+              chunk: chunks/usage-89.md
+            - title: Balancing PrintOpen and PrintClose
+              chunk: chunks/balancing-printopen-and-printclose.md
+            - title: Return value
+              chunk: chunks/return-value-90.md
+            - title: Usage
+              chunk: chunks/usage-90.md
+            - title: Examples
+              chunk: chunks/examples-229.md
+        - title: 10.486 PrintPage
+          chunk: chunks/10-486-printpage.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-102.md
+            - title: "Table 10.609:"
+              chunk: chunks/table-10-609.md
+            - title: "Table 10.610:"
+              chunk: chunks/table-10-610.md
+            - title: Return value
+              chunk: chunks/return-value-91.md
+            - title: Usage
+              chunk: chunks/usage-91.md
+            - title: Examples
+              chunk: chunks/examples-230.md
+        - title: 10.488 PrintRoundRect
+          chunk: chunks/10-488-printroundrect.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-103.md
+            - title: Return value
+              chunk: chunks/return-value-92.md
+            - title: Usage
+              chunk: chunks/usage-92.md
+            - title: Examples
+              chunk: chunks/examples-231.md
+            - title: Return value
+              chunk: chunks/return-value-93.md
+        - title: 10.490 PrintSend (obsolete) Description
+          chunk: chunks/10-490-printsend-obsolete-description.md
+          children:
+            - title: Obsolete function
+              chunk: chunks/obsolete-function-12.md
+            - title: Syntax
+              chunk: chunks/syntax-104.md
+            - title: Return value
+              chunk: chunks/return-value-94.md
+            - title: Usage
+              chunk: chunks/usage-93.md
+            - title: Examples
+              chunk: chunks/examples-232.md
+            - title: See also
+              chunk: chunks/see-also-45.md
+        - title: 10.491 PrintSetFont Description
+          chunk: chunks/10-491-printsetfont-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-105.md
+            - title: Return value
+              chunk: chunks/return-value-95.md
+            - title: Examples
+              chunk: chunks/examples-233.md
+            - title: Return value
+              chunk: chunks/return-value-96.md
+            - title: Usage
+              chunk: chunks/usage-94.md
+            - title: Examples
+              chunk: chunks/examples-234.md
+        - title: 10.494 PrintSetup Description
+          chunk: chunks/10-494-printsetup-description.md
+          children:
+            - title: 10.495 PrintSetupPrinter Description Displays the printer setup dialog
+                box Syntax PrintSetupPrinter ( ) Return value Integer. Returns 1
+                if the function succeeds, 0 for cancel, -1 if an error occurs.
+              chunk: chunks/10-495-printsetupprinter-description-displays-the.md
+            - title: Usage
+              chunk: chunks/usage-95.md
+            - title: Examples
+              chunk: chunks/examples-235.md
+            - title: See also
+              chunk: chunks/see-also-46.md
+            - title: Return value
+              chunk: chunks/return-value-97.md
+            - title: Usage
+              chunk: chunks/usage-96.md
+            - title: Examples
+              chunk: chunks/examples-236.md
+            - title: See also PrintX
+              chunk: chunks/see-also-printx.md
+            - title: Return value
+              chunk: chunks/return-value-98.md
+            - title: Usage
+              chunk: chunks/usage-97.md
+            - title: Windows registry
+              chunk: chunks/windows-registry.md
+            - title: Return value
+              chunk: chunks/return-value-99.md
+            - title: Usage
+              chunk: chunks/usage-97.md
+            - title: Windows registry
+              chunk: chunks/windows-registry-1.md
+            - title: Examples
+              chunk: chunks/examples-237.md
+            - title: Syntax
+              chunk: chunks/syntax-106.md
+            - title: "10.504.1 Syntax 1: For reading into a string Description Reads data from
+                an OLE stream object into a string. Applies to OLEStream
+                objects"
+              chunk: chunks/10-504-1-syntax-1-for-reading-into-a-string-descri.md
+            - title: Syntax
+              chunk: chunks/syntax-107.md
+            - title: Return value
+              chunk: chunks/return-value-100.md
+            - title: See also Open
+              chunk: chunks/see-also-open.md
+            - title: Return value
+              chunk: chunks/return-value-101.md
+            - title: Return value
+              chunk: chunks/return-value-102.md
+            - title: "Table 10.631:"
+              chunk: chunks/table-10-631.md
+            - title: "Table 10.632:"
+              chunk: chunks/table-10-632.md
+            - title: Return value
+              chunk: chunks/return-value-103.md
+            - title: Usage
+              chunk: chunks/usage-98.md
+        - title: 10.510 RegistryKeys Description
+          chunk: chunks/10-510-registrykeys-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-108.md
+        - title: 10.511 RegistrySet Description
+          chunk: chunks/10-511-registryset-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-109.md
+            - title: "Table 10.634:"
+              chunk: chunks/table-10-634.md
+            - title: Return value
+              chunk: chunks/return-value-103.md
+            - title: Usage
+              chunk: chunks/usage-99.md
+            - title: Syntax
+              chunk: chunks/syntax-110.md
+            - title: "Table 10.638:"
+              chunk: chunks/table-10-638.md
+            - title: "Table 10.639:"
+              chunk: chunks/table-10-639.md
+            - title: Return value
+              chunk: chunks/return-value-104.md
+            - title: Return value
+              chunk: chunks/return-value-105.md
+        - title: 10.517 Remove Description
+          chunk: chunks/10-517-remove-description.md
+          children:
+            - title: Return value
+              chunk: chunks/return-value-106.md
+            - title: Return value
+              chunk: chunks/return-value-107.md
+            - title: See also
+              chunk: chunks/see-also-47.md
+        - title: 10.520 Repair Description
+          chunk: chunks/10-520-repair-description.md
+          children:
+            - title: Examples
+              chunk: chunks/examples-238.md
+            - title: See also
+              chunk: chunks/see-also-48.md
+            - title: Return value
+              chunk: chunks/return-value-108.md
+            - title: Usage
+              chunk: chunks/usage-100.md
+        - title: 10.522 ReplaceA Description
+          chunk: chunks/10-522-replacea-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-111.md
+            - title: "Table 10.646:"
+              chunk: chunks/table-10-646.md
+            - title: Return value
+              chunk: chunks/return-value-109.md
+            - title: Usage
+              chunk: chunks/usage-101.md
+            - title: Syntax
+              chunk: chunks/syntax-112.md
+            - title: Other ways to replace text
+              chunk: chunks/other-ways-to-replace-text.md
+            - title: Syntax
+              chunk: chunks/syntax-113.md
+            - title: "Table 10.650:"
+              chunk: chunks/table-10-650.md
+            - title: Return value
+              chunk: chunks/return-value-110.md
+            - title: Examples
+              chunk: chunks/examples-239.md
+            - title: Return value
+              chunk: chunks/return-value-111.md
+            - title: Default color for data points
+              chunk: chunks/default-color-for-data-points.md
+            - title: Examples
+              chunk: chunks/examples-240.md
+        - title: 10.530 Resize Description
+          chunk: chunks/10-530-resize-description.md
+          children:
+            - title: Return value
+              chunk: chunks/return-value-112.md
+            - title: Examples
+              chunk: chunks/examples-241.md
+        - title: 10.531 RespondRemote Description
+          chunk: chunks/10-531-respondremote-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-114.md
+            - title: Return value
+              chunk: chunks/return-value-113.md
+            - title: Usage
+              chunk: chunks/usage-102.md
+        - title: 10.532 Restart Description
+          chunk: chunks/10-532-restart-description.md
+          children:
+            - title: 10.533 ResumeTransaction (obsolete) Description Associates the EAServer
+                transaction passed as an argument with the calling thread.
+              chunk: chunks/10-533-resumetransaction-obsolete-description-asso.md
+            - title: Obsolete function
+              chunk: chunks/obsolete-function-13.md
+            - title: Return value
+              chunk: chunks/return-value-114.md
+            - title: Caution
+              chunk: chunks/caution-1.md
+        - title: 10.534 Retrieve Description
+          chunk: chunks/10-534-retrieve-description.md
+          children:
+            - title: Usage
+              chunk: chunks/usage-103.md
+            - title: Example 8
+              chunk: chunks/example-8.md
+            - title: Example 9
+              chunk: chunks/example-9.md
+            - title: Example 10
+              chunk: chunks/example-10.md
+            - title: Example 11
+              chunk: chunks/example-11.md
+            - title: Example 12
+              chunk: chunks/example-12.md
+        - title: 10.535 RetrieveOne Description
+          chunk: chunks/10-535-retrieveone-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-115.md
+            - title: Usage
+              chunk: chunks/usage-104.md
+            - title: Return value
+              chunk: chunks/return-value-115.md
+        - title: 10.537 RevertToSelf Description
+          chunk: chunks/10-537-reverttoself-description.md
+          children:
+            - title: Return value
+              chunk: chunks/return-value-116.md
+            - title: Examples
+              chunk: chunks/examples-242.md
+        - title: 10.538 RGB Description
+          chunk: chunks/10-538-rgb-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-116.md
+            - title: Return value
+              chunk: chunks/return-value-117.md
+            - title: About color values
+              chunk: chunks/about-color-values.md
+            - title: Syntax
+              chunk: chunks/syntax-117.md
+            - title: Return value
+              chunk: chunks/return-value-118.md
+            - title: Usage
+              chunk: chunks/usage-105.md
+            - title: Return value
+              chunk: chunks/return-value-119.md
+            - title: Usage
+              chunk: chunks/usage-106.md
+            - title: Obsolete function
+              chunk: chunks/obsolete-function-14.md
+            - title: Return value
+              chunk: chunks/return-value-120.md
+            - title: Examples
+              chunk: chunks/examples-243.md
+            - title: Obsolete function
+              chunk: chunks/obsolete-function-15.md
+            - title: Syntax
+              chunk: chunks/syntax-118.md
+            - title: Return value
+              chunk: chunks/return-value-121.md
+            - title: Examples
+              chunk: chunks/examples-244.md
+            - title: Return value
+              chunk: chunks/return-value-122.md
+            - title: Examples
+              chunk: chunks/examples-245.md
+            - title: Return value
+              chunk: chunks/return-value-123.md
+        - title: 10.549 Save
+          chunk: chunks/10-549-save.md
+          children:
+            - title: Return value
+              chunk: chunks/return-value-124.md
+            - title: Examples
+              chunk: chunks/examples-246.md
+            - title: When do you have to save twice?
+              chunk: chunks/when-do-you-have-to-save-twice.md
+            - title: Examples
+              chunk: chunks/examples-247.md
+        - title: 10.550 SaveAs
+          chunk: chunks/10-550-saveas.md
+          children:
+            - title: "10.550.1 Syntax 1: For graph objects Description"
+              chunk: chunks/10-550-1-syntax-1-for-graph-objects-description.md
+            - title: Syntax
+              chunk: chunks/syntax-119.md
+            - title: "Table 10.677:"
+              chunk: chunks/table-10-677.md
+            - title: Regional settings
+              chunk: chunks/regional-settings.md
+            - title: Examples
+              chunk: chunks/examples-248.md
+            - title: See also Print
+              chunk: chunks/see-also-print.md
+            - title: "Table 10.680:"
+              chunk: chunks/table-10-680.md
+            - title: See also
+              chunk: chunks/see-also-49.md
+            - title: See also
+              chunk: chunks/see-also-50.md
+            - title: Examples
+              chunk: chunks/examples-249.md
+        - title: 10.555 Scroll Description
+          chunk: chunks/10-555-scroll-description.md
+          children:
+            - title: Usage
+              chunk: chunks/usage-107.md
+        - title: 10.556 ScrollNextPage Description
+          chunk: chunks/10-556-scrollnextpage-description.md
+          children:
+            - title: Examples
+              chunk: chunks/examples-250.md
+        - title: 10.557 ScrollNextRow Description
+          chunk: chunks/10-557-scrollnextrow-description.md
+          children:
+            - title: Return value
+              chunk: chunks/return-value-125.md
+            - title: Examples
+              chunk: chunks/examples-251.md
+        - title: 10.558 ScrollPriorPage Description
+          chunk: chunks/10-558-scrollpriorpage-description.md
+          children:
+            - title: Usage
+              chunk: chunks/usage-108.md
+            - title: Examples
+              chunk: chunks/examples-252.md
+        - title: 10.559 ScrollPriorRow Description
+          chunk: chunks/10-559-scrollpriorrow-description.md
+          children:
+            - title: "Table 10.690:"
+              chunk: chunks/table-10-690.md
+            - title: Examples
+              chunk: chunks/examples-253.md
+        - title: 10.560 ScrollToRow Description
+          chunk: chunks/10-560-scrolltorow-description.md
+          children:
+            - title: Return value
+              chunk: chunks/return-value-126.md
+            - title: Examples
+              chunk: chunks/examples-254.md
+        - title: 10.563 Seek
+          chunk: chunks/10-563-seek.md
+          children:
+            - title: Examples
+              chunk: chunks/examples-255.md
+            - title: See also
+              chunk: chunks/see-also-51.md
+        - title: 10.564 SelectedColumn Description
+          chunk: chunks/10-564-selectedcolumn-description.md
+          children:
+            - title: Examples
+              chunk: chunks/examples-256.md
+            - title: Examples
+              chunk: chunks/examples-257.md
+        - title: 10.567 SelectedLength Description
+          chunk: chunks/10-567-selectedlength-description.md
+          children:
+            - title: Applies to
+              chunk: chunks/applies-to-12.md
+            - title: Syntax
+              chunk: chunks/syntax-120.md
+            - title: RichTextEdit controls
+              chunk: chunks/richtextedit-controls.md
+            - title: Focus and the selection in a drop-down list
+              chunk: chunks/focus-and-the-selection-in-a-drop-down-list.md
+            - title: Examples
+              chunk: chunks/examples-258.md
+        - title: 10.568 SelectedLine Description
+          chunk: chunks/10-568-selectedline-description.md
+          children:
+            - title: -1. Usage
+              chunk: chunks/1-usage.md
+            - title: Syntax
+              chunk: chunks/syntax-121.md
+            - title: Focus and the selection in a drop-down list
+              chunk: chunks/focus-and-the-selection-in-a-drop-down-list.md
+            - title: Examples
+              chunk: chunks/examples-259.md
+            - title: Syntax
+              chunk: chunks/syntax-122.md
+            - title: Return value String.
+              chunk: chunks/return-value-string-2.md
+            - title: Usage
+              chunk: chunks/usage-109.md
+            - title: Focus and the selection in a drop-down list
+              chunk: chunks/focus-and-the-selection-in-a-drop-down-list.md
+            - title: Examples
+              chunk: chunks/examples-260.md
+        - title: 10.572 SelectionRange Description
+          chunk: chunks/10-572-selectionrange-description.md
+          children:
+            - title: "Table 10.705:"
+              chunk: chunks/table-10-705.md
+            - title: Syntax
+              chunk: chunks/syntax-123.md
+            - title: MultiSelect ListBoxes
+              chunk: chunks/multiselect-listboxes.md
+            - title: Clearing the edit box of a drop-down list
+              chunk: chunks/clearing-the-edit-box-of-a-drop-down-list.md
+            - title: Examples
+              chunk: chunks/examples-261.md
+            - title: MultiSelect ListBoxes
+              chunk: chunks/multiselect-listboxes.md
+            - title: Clearing the text box of a drop-down list
+              chunk: chunks/clearing-the-text-box-of-a-drop-down-list.md
+        - title: 10.574 SelectObject Description
+          chunk: chunks/10-574-selectobject-description.md
+          children:
+            - title: 10.575 SelectTab Description Selects the specified tab, displaying its
+                tab page in the Tab control. Applies to Tab controls Syntax
+              chunk: chunks/10-575-selecttab-description-selects-the-specified.md
+            - title: "Table 10.711:"
+              chunk: chunks/table-10-711.md
+            - title: "Table 10.712:"
+              chunk: chunks/table-10-712.md
+            - title: Applies to
+              chunk: chunks/applies-to-13.md
+            - title: Syntax
+              chunk: chunks/syntax-124.md
+            - title: How much to select
+              chunk: chunks/how-much-to-select.md
+            - title: Examples
+              chunk: chunks/examples-262.md
+        - title: 10.577 SelectTextAll Description
+          chunk: chunks/10-577-selecttextall-description.md
+          children:
+            - title: "Table 10.715:"
+              chunk: chunks/table-10-715.md
+            - title: Return value
+              chunk: chunks/return-value-127.md
+            - title: Posting a message
+              chunk: chunks/posting-a-message.md
+        - title: 10.581 SendDeleteRequest Description
+          chunk: chunks/10-581-senddeleterequest-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-125.md
+            - title: Return value
+              chunk: chunks/return-value-128.md
+        - title: 10.582 SendGetRequest Description
+          chunk: chunks/10-582-sendgetrequest-description.md
+          children:
+            - title: Return value
+              chunk: chunks/return-value-129.md
+        - title: 10.583 SendPatchRequest Description
+          chunk: chunks/10-583-sendpatchrequest-description.md
+          children:
+            - title: "Table 10.721:"
+              chunk: chunks/table-10-721.md
+        - title: 10.584 SendPostRequest Description
+          chunk: chunks/10-584-sendpostrequest-description.md
+          children:
+            - title: "Table 10.722:"
+              chunk: chunks/table-10-722.md
+        - title: 10.585 SendPutRequest Description
+          chunk: chunks/10-585-sendputrequest-description.md
+          children:
+            - title: Return value
+              chunk: chunks/return-value-130.md
+            - title: Example 4
+              chunk: chunks/example-4-2.md
+            - title: Examples
+              chunk: chunks/examples-263.md
+            - title: Usage
+              chunk: chunks/usage-110.md
+            - title: Examples
+              chunk: chunks/examples-264.md
+            - title: Examples
+              chunk: chunks/examples-265.md
+            - title: Return value
+              chunk: chunks/return-value-131.md
+            - title: "Table 10.730:"
+              chunk: chunks/table-10-730.md
+            - title: "Table 10.731:"
+              chunk: chunks/table-10-731.md
+        - title: 10.593 SetAutomationLocale Description
+          chunk: chunks/10-593-setautomationlocale-description.md
+        - title: 10.594 SetAutomationPointer Description
+          chunk: chunks/10-594-setautomationpointer-description.md
+          children:
+            - title: Examples
+              chunk: chunks/examples-266.md
+        - title: 10.595 SetAutomationTimeout Description
+          chunk: chunks/10-595-setautomationtimeout-description.md
+          children:
+            - title: Default timeout period
+              chunk: chunks/default-timeout-period.md
+            - title: Examples
+              chunk: chunks/examples-267.md
+            - title: "Table 10.736:"
+              chunk: chunks/table-10-736.md
+        - title: 10.597 SetBoldDate Description
+          chunk: chunks/10-597-setbolddate-description.md
+          children:
+            - title: Examples
+              chunk: chunks/examples-268.md
+            - title: Examples
+              chunk: chunks/examples-269.md
+            - title: Examples
+              chunk: chunks/examples-270.md
+        - title: 10.602 SetDataDDE Description
+          chunk: chunks/10-602-setdatadde-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-126.md
+            - title: Examples
+              chunk: chunks/examples-271.md
+            - title: Return value
+              chunk: chunks/return-value-132.md
+            - title: Usage
+              chunk: chunks/usage-111.md
+            - title: Examples
+              chunk: chunks/examples-272.md
+        - title: 10.604 SetDataPieExplode Description
+          chunk: chunks/10-604-setdatapieexplode-description.md
+          children:
+            - title: "Table 10.746:"
+              chunk: chunks/table-10-746.md
+        - title: 10.605 SetDataStyle
+          chunk: chunks/10-605-setdatastyle.md
+          children:
+            - title: Using SetDataStyle with DirectX 3D Graphs
+              chunk: chunks/using-setdatastyle-with-directx-3d-graphs.md
+            - title: Examples
+              chunk: chunks/examples-273.md
+            - title: Syntax
+              chunk: chunks/syntax-127.md
+            - title: Examples
+              chunk: chunks/examples-274.md
+            - title: "Table 10.750:"
+              chunk: chunks/table-10-750.md
+            - title: Examples
+              chunk: chunks/examples-275.md
+            - title: "Table 10.751:"
+              chunk: chunks/table-10-751.md
+            - title: Examples
+              chunk: chunks/examples-276.md
+            - title: Examples
+              chunk: chunks/examples-277.md
+            - title: "Table 10.753:"
+              chunk: chunks/table-10-753.md
+            - title: "Table 10.754:"
+              chunk: chunks/table-10-754.md
+            - title: Examples
+              chunk: chunks/examples-278.md
+            - title: See also
+              chunk: chunks/see-also-52.md
+            - title: Examples
+              chunk: chunks/examples-279.md
+        - title: 10.613 SetHeader
+          chunk: chunks/10-613-setheader.md
+          children:
+            - title: "Table 10.758:"
+              chunk: chunks/table-10-758.md
+            - title: Return value Integer.
+              chunk: chunks/return-value-integer-9.md
+            - title: Examples
+              chunk: chunks/examples-280.md
+        - title: 10.614 SetHeaders
+          chunk: chunks/10-614-setheaders.md
+          children:
+            - title: Examples
+              chunk: chunks/examples-281.md
+            - title: See also
+              chunk: chunks/see-also-53.md
+            - title: Return value Integer.
+              chunk: chunks/return-value-integer-10.md
+            - title: Examples
+              chunk: chunks/examples-282.md
+            - title: Examples
+              chunk: chunks/examples-283.md
+            - title: "Table 10.765:"
+              chunk: chunks/table-10-765.md
+            - title: "Table 10.766:"
+              chunk: chunks/table-10-766.md
+            - title: Return value
+              chunk: chunks/return-value-133.md
+            - title: Obsolete syntax
+              chunk: chunks/obsolete-syntax.md
+            - title: Syntax
+              chunk: chunks/syntax-128.md
+            - title: Examples
+              chunk: chunks/examples-284.md
+            - title: Usage
+              chunk: chunks/usage-112.md
+        - title: 10.624 SetOAuthToken Description
+          chunk: chunks/10-624-setoauthtoken-description.md
+          children:
+            - title: Return value
+              chunk: chunks/return-value-134.md
+            - title: Examples
+              chunk: chunks/examples-285.md
+        - title: 10.626 SetParagraphSetting Description
+          chunk: chunks/10-626-setparagraphsetting-description.md
+          children:
+            - title: Maintaining property settings in the MLSync object
+              chunk: chunks/maintaining-property-settings-in-the-mlsync-object.md
+            - title: Examples
+              chunk: chunks/examples-286.md
+            - title: Return value
+              chunk: chunks/return-value-135.md
+            - title: Usage
+              chunk: chunks/usage-113.md
+            - title: Restoring the arrow pointer
+              chunk: chunks/restoring-the-arrow-pointer.md
+            - title: Syntax
+              chunk: chunks/syntax-129.md
+            - title: "Table 10.781:"
+              chunk: chunks/table-10-781.md
+            - title: "Table 10.782:"
+              chunk: chunks/table-10-782.md
+            - title: "Table 10.783:"
+              chunk: chunks/table-10-783.md
+            - title: Windows registry
+              chunk: chunks/windows-registry-2.md
+            - title: Examples
+              chunk: chunks/examples-287.md
+        - title: 10.632 SetRange Description
+          chunk: chunks/10-632-setrange-description.md
+          children:
+            - title: Examples
+              chunk: chunks/examples-288.md
+            - title: Caution
+              chunk: chunks/caution-2.md
+        - title: 10.635 SetRemote
+          chunk: chunks/10-635-setremote.md
+          children:
+            - title: Return value Integer.
+              chunk: chunks/return-value-integer-11.md
+            - title: Examples
+              chunk: chunks/examples-289.md
+            - title: Syntax
+              chunk: chunks/syntax-130.md
+            - title: "Table 10.790:"
+              chunk: chunks/table-10-790.md
+            - title: "Table 10.791:"
+              chunk: chunks/table-10-791.md
+            - title: Return value Integer. Returns 1 if it succeeds and -1 if an error occurs.
+                Usage
+              chunk: chunks/return-value-integer-returns-1-if-it-succeeds-and-1.md
+            - title: Examples
+              chunk: chunks/examples-290.md
+            - title: Return value
+              chunk: chunks/return-value-136.md
+            - title: Examples
+              chunk: chunks/examples-291.md
+        - title: 10.642 SetSeriesStyle
+          chunk: chunks/10-642-setseriesstyle.md
+          children:
+            - title: Using SetSeriesStyle with DirectX 3D Graphs
+              chunk: chunks/using-setseriesstyle-with-directx-3d-graphs.md
+            - title: Examples
+              chunk: chunks/examples-292.md
+            - title: Examples
+              chunk: chunks/examples-293.md
+            - title: Examples
+              chunk: chunks/examples-294.md
+            - title: Examples
+              chunk: chunks/examples-295.md
+            - title: "Table 10.804:"
+              chunk: chunks/table-10-804.md
+            - title: "Table 10.805:"
+              chunk: chunks/table-10-805.md
+            - title: "Table 10.806:"
+              chunk: chunks/table-10-806.md
+            - title: "Table 10.807:"
+              chunk: chunks/table-10-807.md
+        - title: 10.649 SetTextStyle Description
+          chunk: chunks/10-649-settextstyle-description.md
+          children:
+            - title: "Table 10.808:"
+              chunk: chunks/table-10-808.md
+        - title: 10.650 SetTimeout (obsolete) Description
+          chunk: chunks/10-650-settimeout-obsolete-description.md
+          children:
+            - title: Obsolete function
+              chunk: chunks/obsolete-function-16.md
+            - title: "Table 10.809:"
+              chunk: chunks/table-10-809.md
+            - title: Examples
+              chunk: chunks/examples-296.md
+            - title: Examples
+              chunk: chunks/examples-297.md
+            - title: Examples
+              chunk: chunks/examples-298.md
+            - title: Usage
+              chunk: chunks/usage-114.md
+            - title: Examples
+              chunk: chunks/examples-299.md
+            - title: Examples
+              chunk: chunks/examples-300.md
+        - title: 10.656 SetTransPool Description
+          chunk: chunks/10-656-settranspool-description.md
+          children:
+            - title: Applies to Application object Syntax
+              chunk: chunks/applies-to-application-object-syntax.md
+            - title: "Table 10.817:"
+              chunk: chunks/table-10-817.md
+            - title: "Table 10.818:"
+              chunk: chunks/table-10-818.md
+            - title: "Table 10.819:"
+              chunk: chunks/table-10-819.md
+            - title: Examples
+              chunk: chunks/examples-301.md
+        - title: 10.658 SetValueBlob Description
+          chunk: chunks/10-658-setvalueblob-description.md
+          children:
+            - title: Return value Integer.
+              chunk: chunks/return-value-integer-9.md
+            - title: Examples
+              chunk: chunks/examples-302.md
+        - title: 10.659 SetValueBoolean Description
+          chunk: chunks/10-659-setvalueboolean-description.md
+          children:
+            - title: "Table 10.822:"
+              chunk: chunks/table-10-822.md
+        - title: 10.660 SetValueByDataWindow Description
+          chunk: chunks/10-660-setvaluebydatawindow-description.md
+          children:
+            - title: Applies to
+              chunk: chunks/applies-to-14.md
+            - title: JSONPackage object Syntax
+              chunk: chunks/jsonpackage-object-syntax.md
+            - title: "Table 10.823:"
+              chunk: chunks/table-10-823.md
+            - title: Return value
+              chunk: chunks/return-value-137.md
+        - title: 10.661 SetValueDate Description
+          chunk: chunks/10-661-setvaluedate-description.md
+        - title: 10.662 SetValueDateTime Description
+          chunk: chunks/10-662-setvaluedatetime-description.md
+          children:
+            - title: "Table 10.825:"
+              chunk: chunks/table-10-825.md
+        - title: 10.663 SetValueNumber Description
+          chunk: chunks/10-663-setvaluenumber-description.md
+          children:
+            - title: Applies to
+              chunk: chunks/applies-to-15.md
+        - title: 10.664 SetValueString Description
+          chunk: chunks/10-664-setvaluestring-description.md
+        - title: 10.665 SetValueTime Description
+          chunk: chunks/10-665-setvaluetime-description.md
+          children:
+            - title: Return value
+              chunk: chunks/return-value-138.md
+            - title: Usage
+              chunk: chunks/usage-115.md
+            - title: Examples
+              chunk: chunks/examples-303.md
+            - title: Return value Integer. Returns 1 if it succeeds and -1 if an error occurs.
+                If objectname is null, Show returns null. Usage If the specified
+                object is a window that is not open, an execution error occurs.
+              chunk: chunks/return-value-integer-returns-1-if-it-succeeds-and-2.md
+        - title: 10.672 ShowHeadFoot Description
+          chunk: chunks/10-672-showheadfoot-description.md
+          children:
+            - title: "Table 10.835:"
+              chunk: chunks/table-10-835.md
+            - title: Examples
+              chunk: chunks/examples-304.md
+        - title: 10.673 ShowHelp Description
+          chunk: chunks/10-673-showhelp-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-131.md
+            - title: "Table 10.836:"
+              chunk: chunks/table-10-836.md
+            - title: See also Help
+              chunk: chunks/see-also-help.md
+            - title: Examples
+              chunk: chunks/examples-305.md
+            - title: "10.679.1 Syntax 1: For TreeView controls Description"
+              chunk: chunks/10-679-1-syntax-1-for-treeview-controls-descriptio.md
+            - title: "Table 10.844:"
+              chunk: chunks/table-10-844.md
+            - title: "Table 10.845:"
+              chunk: chunks/table-10-845.md
+            - title: See also Sort
+              chunk: chunks/see-also-sort.md
+            - title: Return value Integer.
+              chunk: chunks/return-value-integer-12.md
+            - title: Examples
+              chunk: chunks/examples-306.md
+            - title: See also
+              chunk: chunks/see-also-54.md
+            - title: When the Timer event occurs
+              chunk: chunks/when-the-timer-event-occurs.md
+            - title: Garbage collection
+              chunk: chunks/garbage-collection.md
+            - title: Examples
+              chunk: chunks/examples-307.md
+        - title: 10.684 StartHotLink Description
+          chunk: chunks/10-684-starthotlink-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-132.md
+            - title: "Table 10.851:"
+              chunk: chunks/table-10-851.md
+        - title: 10.685 StartServerDDE Description
+          chunk: chunks/10-685-startserverdde-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-133.md
+            - title: "Table 10.852:"
+              chunk: chunks/table-10-852.md
+            - title: Return value
+              chunk: chunks/return-value-139.md
+            - title: Usage
+              chunk: chunks/usage-116.md
+            - title: Examples
+              chunk: chunks/examples-308.md
+        - title: 10.687 StepIt Description
+          chunk: chunks/10-687-stepit-description.md
+          children:
+            - title: Stops an animation (an AVI clip) from playing. Applies to Animation
+                controls Syntax
+              chunk: chunks/stops-an-animation-an-avi-clip-from-playing-applie.md
+            - title: "Table 10.858:"
+              chunk: chunks/table-10-858.md
+            - title: "Table 10.859:"
+              chunk: chunks/table-10-859.md
+        - title: 10.690 StopServerDDE Description
+          chunk: chunks/10-690-stopserverdde-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-134.md
+            - title: "Table 10.860:"
+              chunk: chunks/table-10-860.md
+            - title: Caution
+              chunk: chunks/caution-3.md
+            - title: Usage
+              chunk: chunks/usage-117.md
+            - title: Times and dates from a DataWindow control
+              chunk: chunks/times-and-dates-from-a-datawindow-control.md
+            - title: Syntax
+              chunk: chunks/syntax-135.md
+        - title: 10.692 Submit Description
+          chunk: chunks/10-692-submit-description.md
+          children:
+            - title: "Table 10.864:"
+              chunk: chunks/table-10-864.md
+            - title: Return value
+              chunk: chunks/return-value-140.md
+            - title: Obsolete function
+              chunk: chunks/obsolete-function-17.md
+            - title: Examples
+              chunk: chunks/examples-309.md
+            - title: "Table 10.866:"
+              chunk: chunks/table-10-866.md
+            - title: Return value
+              chunk: chunks/return-value-141.md
+            - title: "Table 10.867:"
+              chunk: chunks/table-10-867.md
+        - title: 10.696 Synchronize
+          chunk: chunks/10-696-synchronize.md
+          children:
+            - title: Examples
+              chunk: chunks/examples-310.md
+            - title: Note for Adaptive Server Enterprise
+              chunk: chunks/note-for-adaptive-server-enterprise.md
+            - title: Examples
+              chunk: chunks/examples-311.md
+            - title: Examples
+              chunk: chunks/examples-312.md
+        - title: 10.699 TabPostEvent Description
+          chunk: chunks/10-699-tabpostevent-description.md
+          children:
+            - title: "Table 10.873:"
+              chunk: chunks/table-10-873.md
+        - title: 10.700 TabTriggerEvent Description
+          chunk: chunks/10-700-tabtriggerevent-description.md
+          children:
+            - title: "Table 10.874:"
+              chunk: chunks/table-10-874.md
+        - title: 10.703 TextLine Description
+          chunk: chunks/10-703-textline-description.md
+        - title: 10.704 Time
+          chunk: chunks/10-704-time.md
+          children:
+            - title: "Table 10.878:"
+              chunk: chunks/table-10-878.md
+            - title: "Table 10.880:"
+              chunk: chunks/table-10-880.md
+            - title: "Table 10.881:"
+              chunk: chunks/table-10-881.md
+        - title: 10.705 Timer Description
+          chunk: chunks/10-705-timer-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-136.md
+            - title: "Table 10.882:"
+              chunk: chunks/table-10-882.md
+            - title: See also Idle
+              chunk: chunks/see-also-idle.md
+            - title: Unicode file format
+              chunk: chunks/unicode-file-format-1.md
+        - title: 10.708 Top Description
+          chunk: chunks/10-708-top-description.md
+          children:
+            - title: Examples
+              chunk: chunks/examples-313.md
+            - title: Return value Blob. Returns a Unicode blob if it succeeds and an empty
+                blob if it fails.
+              chunk: chunks/return-value-blob-returns-a-unicode-blob-if-it-suc.md
+            - title: Unicode file format
+              chunk: chunks/unicode-file-format-2.md
+        - title: 10.713 TraceBegin Description
+          chunk: chunks/10-713-tracebegin-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-137.md
+            - title: Examples
+              chunk: chunks/examples-314.md
+        - title: 10.716 TraceEnableActivity Description Enables logging of the specified
+            trace activity.
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-138.md
+            - title: Examples
+              chunk: chunks/examples-315.md
+        - title: 10.717 TraceEnd Description
+          chunk: chunks/10-717-traceend-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-139.md
+            - title: Usage
+              chunk: chunks/usage-118.md
+        - title: 10.718 TraceError Description
+          chunk: chunks/10-718-traceerror-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-140.md
+            - title: Caution
+              chunk: chunks/caution-4.md
+            - title: Examples
+              chunk: chunks/examples-316.md
+        - title: 10.721 TriggerEvent Description
+          chunk: chunks/10-721-triggerevent-description.md
+          children:
+            - title: Check return code
+              chunk: chunks/check-return-code.md
+            - title: Caution
+              chunk: chunks/caution-5.md
+            - title: Examples
+              chunk: chunks/examples-317.md
+        - title: 10.722 TriggerPBEvent Description
+          chunk: chunks/10-722-triggerpbevent-description.md
+          children:
+            - title: Examples
+              chunk: chunks/examples-318.md
+            - title: Using Truncate on a computed field
+              chunk: chunks/using-truncate-on-a-computed-field.md
+        - title: 10.726 TrustVerify (obsolete) Description
+          chunk: chunks/10-726-trustverify-obsolete-description.md
+          children:
+            - title: Obsolete function
+              chunk: chunks/obsolete-function-18.md
+            - title: Examples
+              chunk: chunks/examples-319.md
+        - title: 10.727 TypeOf Description
+          chunk: chunks/10-727-typeof-description.md
+          children:
+            - title: Return value
+              chunk: chunks/return-value-142.md
+        - title: 10.728 Uncheck Description
+          chunk: chunks/10-728-uncheck-description.md
+          children:
+            - title: Examples
+              chunk: chunks/examples-320.md
+            - title: See also Check
+              chunk: chunks/see-also-check.md
+        - title: 10.730 UnitsToPixels Description
+          chunk: chunks/10-730-unitstopixels-description.md
+        - title: 10.731 UpdateLinksDialog Description
+          chunk: chunks/10-731-updatelinksdialog-description.md
+          children:
+            - title: Applies to
+              chunk: chunks/applies-to.md
+            - title: Syntax
+              chunk: chunks/syntax-141.md
+            - title: Examples
+              chunk: chunks/examples-321.md
+            - title: Return value
+              chunk: chunks/return-value-143.md
+            - title: Return value
+              chunk: chunks/return-value-144.md
+            - title: Examples
+              chunk: chunks/examples-322.md
+        - title: 10.737 WordCap Description
+          chunk: chunks/10-737-wordcap-description.md
+          children:
+            - title: Examples
+              chunk: chunks/examples-323.md
+            - title: See also
+              chunk: chunks/see-also-55.md
+        - title: 10.740 WorkSpaceX Description
+          chunk: chunks/10-740-workspacex-description.md
+          children:
+            - title: Examples
+              chunk: chunks/examples-324.md
+            - title: Usage
+              chunk: chunks/usage-119.md
+            - title: Examples
+              chunk: chunks/examples-325.md
+        - title: 10.743 XMLParseFile Description
+          chunk: chunks/10-743-xmlparsefile-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-142.md
+            - title: "Table 10.916:"
+              chunk: chunks/table-10-916.md
+            - title: Examples
+              chunk: chunks/examples-326.md
+        - title: 10.744 XMLParseString Description
+          chunk: chunks/10-744-xmlparsestring-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-143.md
+            - title: "Table 10.917:"
+              chunk: chunks/table-10-917.md
+            - title: Examples
+              chunk: chunks/examples-327.md
+            - title: Windows settings
+              chunk: chunks/windows-settings.md
+        - title: 10.746 Yield Description
+          chunk: chunks/10-746-yield-description.md
+          children:
+            - title: Syntax
+              chunk: chunks/syntax-144.md
+            - title: Using other applications while retrieving data
+              chunk: chunks/using-other-applications-while-retrieving-data.md
+            - title: Examples
+              chunk: chunks/examples-328.md
+    - title: Index
+      children:
+        - title: Symbols
+          chunk: chunks/symbols.md
+        - title: D
+          chunk: chunks/d.md
+        - title: H
+          chunk: chunks/h.md
+        - title: I
+          chunk: chunks/i.md
+        - title: K
+          chunk: chunks/k.md
+        - title: L
+          chunk: chunks/l.md
+        - title: M
+          chunk: chunks/m.md
+        - title: O
+          chunk: chunks/o.md
+        - title: U
+          chunk: chunks/u.md
+        - title: V
+          chunk: chunks/v.md
+        - title: X
+          chunk: chunks/x.md
+        - title: Y
+          chunk: chunks/y.md

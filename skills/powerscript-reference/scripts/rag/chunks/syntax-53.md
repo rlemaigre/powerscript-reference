@@ -1,0 +1,3 @@
+# Syntax
+
+FindTypeDefinition ( typename {, librarylist } )

@@ -1,0 +1,3 @@
+# Syntax
+
+olecontrol.InsertFile ( filename )

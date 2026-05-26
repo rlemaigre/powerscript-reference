@@ -1,0 +1,3 @@
+# Syntax
+
+controlname.FindNext ( )

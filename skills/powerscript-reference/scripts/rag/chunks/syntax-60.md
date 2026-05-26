@@ -1,0 +1,3 @@
+# Syntax
+
+DynamicDescriptionArea.GetDynamicDecimal ( index )

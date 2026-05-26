@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "skill-authoring": {
+      "source": "rlemaigre/skill-authoring",
+      "sourceType": "github",
+      "skillPath": "skills/skill-authoring/SKILL.md",
+      "computedHash": "8b665cd57fa49e5bbdc782aac0f6e9795ffbb845d90b96ec30c9c41f3d1db802"
+    }
+  }
+}

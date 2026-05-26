@@ -1,0 +1,3 @@
+# Syntax
+
+controlname.Reset ( graphresettype )

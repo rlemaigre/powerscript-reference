@@ -1,0 +1,27 @@
+# Example 11
+
+This example passes the blob data using POST method and retrieves the data from the Web site with token authentication to the DataWindow.
+
+
+
+integer li_return blob lblb_data RestClient lnv_restClient TokenRequest lnv_tokenRequest
+
+
+
+lnv_restClient = create RestClient lnv_TokenRequest.tokenlocation = "http://demo.appeon.com/pb/identityserver/connect/ token" //Location of the token lnv_TokenRequest.method = "post" //Request method lnv_TokenRequest.granttype = "client_credentials" //Grant type lnv_TokenRequest.clientid = "GRfjNAfCg2bI47l1sX5zdFiTEmdrkCKa20zm5YVS4iM=" //client
+
+
+
+ID lnv_TokenRequest.clientsecret = "K7gNU3sdo-OL0wNhqoVWhr3g6s1xYv72ol/pe/Unols=" // client certificate
+
+
+
+lnv_restClient.setrequestheader("Content-Type", "Application/json;charset=utf-8") lblb_data = blob("{'id':100}", encodingutf8!) li_return = lnv_restClient.retrieve(dw_dept, "http://demo.appeon.com/pb/ webapi_client/identity/department", lblb_data, lnv_tokenRequest) if li_return >= 0 then
+
+
+
+messagebox("Success", "Rows " + string(li_return)) else
+
+
+
+messagebox("Error", "Failed to retrieve data.") end if
