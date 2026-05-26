@@ -27,6 +27,12 @@ This repository contains the core `powerscript-reference` skill along with its s
 │       │   ├── language_summary.md
 │       │   ├── PowerBuilder_2019_powerscript_reference_2019.pdf
 │       │   └── grammars/         # ANTLR4 grammars for PowerBuilder parser/lexer
+│       │       ├── PowerBuilderLexer.g4
+│       │       ├── PowerBuilderParser.g4
+│       │       ├── PowerBuilderWithCommentLexer.g4
+│       │       ├── PowerBuilderWithCommentParser.g4
+│       │       ├── PowerBuilderDWLexer.g4
+│       │       └── PowerBuilderDWParser.g4
 │       └── scripts/
 │           └── rag/              # Local semantic search index (RAG)
 │               ├── query.js      # CLI script to query the RAG database
